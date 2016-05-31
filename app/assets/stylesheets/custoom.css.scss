@@ -1,0 +1,27 @@
+
+
+@import 'bootstrap';
+$linkColor: #FF69d6;
+body .main{
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+
+  
+}
+
+.multiple-rows
+{
+ columns: 2;
+ -webkit-columns: 2;
+    -moz-columns: 2;
+ overflow: hidden;
+}
+
+.multiple-rows li
+{
+ list-style-type: none;
+ padding: 5px;
+width: 50%;
+}

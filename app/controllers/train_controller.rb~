@@ -1,0 +1,30 @@
+class TrainController < ApplicationController
+
+  def index
+  end
+
+  def formula
+  end
+
+  def problems
+  end
+  
+  def test
+  end
+
+  def new
+  end
+  def show
+  @train = Train.find(params[:id])
+  end
+  def create
+  @train = Train.new(train_params)
+  @train.save
+  redirect_to @post
+  end
+
+  private
+  def post_params
+   params.require(:train).permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer) 
+  end
+end
