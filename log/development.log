@@ -13510,3 +13510,75 @@ Processing by AgesController#problems as HTML
   Rendered ages/problems.html.erb within layouts/application (396.3ms)
   Rendered static_pages/_header.html.erb (0.3ms)
 Completed 200 OK in 548ms (Views: 539.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-02 15:07:58 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+Completed 200 OK in 1470ms (Views: 1447.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages" for 127.0.0.1 at 2016-06-02 15:08:02 +0530
+Processing by AgesController#index as HTML
+  Rendered ages/index.html.erb within layouts/application (17.2ms)
+  Rendered static_pages/_header.html.erb (1.6ms)
+Completed 200 OK in 209ms (Views: 207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages/problems" for 127.0.0.1 at 2016-06-02 15:08:04 +0530
+Processing by AgesController#problems as HTML
+  [1m[35mAge Load (5.3ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0
+  [1m[36m (3.3ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (87.1ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 266ms (Views: 247.9ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/ages/problems?page=2" for 127.0.0.1 at 2016-06-02 15:08:06 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAge Load (0.3ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 2
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (8.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+Completed 200 OK in 140ms (Views: 138.3ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mAge Load (25.9ms)[0m  [1mSELECT "ages".* FROM "ages"[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
