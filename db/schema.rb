@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160530133600) do
+ActiveRecord::Schema.define(version: 20160603151734) do
 
   create_table "ages", force: :cascade do |t|
     t.text     "question"
@@ -20,6 +20,366 @@ ActiveRecord::Schema.define(version: 20160530133600) do
     t.string   "optionB"
     t.string   "optionC"
     t.string   "optionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "areas", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "optionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "averages", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "optionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "bankersdiscounts", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "boatsandstreams", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "calendars", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "chainrules", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "clocks", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "compoundinterests", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "decimalfractions", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "hcfandlcms", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "heightanddistances", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "logarithms", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "mixtureandalligations", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "numbers", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "partnerships", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "percentages", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "optionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "permutationandcombinations", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pipesandcisterns", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "probabilities", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "profitandlosses", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "racesandgames", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "seriesfindmissingnumbers", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "seriesoddmanouts", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "simpleinterests", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "simplifications", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "squareandcuberoots", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stocksandshares", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "surdsandindices", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "timeanddistances", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
+    t.text     "answer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "timeandworks", force: :cascade do |t|
+    t.text     "question"
+    t.text     "solution"
+    t.string   "optionA"
+    t.string   "optionB"
+    t.string   "optionC"
+    t.string   "opdtionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -1,0 +1,14 @@
+<h1> Showing newly created post </h1>
+
+
+<%= @post.question %> <br>
+<%= @post.solution %> <br>
+<%= @post.optionA %> <br>
+<%= @post.optionB %> <br>
+<%= @post.optionC %> <br>
+<%= @post.optionD %> <br>
+<%= @post.answer %> <br> <br>
+
+
+<b><%= time_ago_in_words(@post.created_at) %> Ago </b>
+

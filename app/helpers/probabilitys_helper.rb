@@ -1,0 +1,2 @@
+module ProbabilitysHelper
+end

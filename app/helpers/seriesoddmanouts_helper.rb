@@ -1,0 +1,2 @@
+module SeriesoddmanoutsHelper
+end

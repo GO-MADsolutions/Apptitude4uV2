@@ -1,0 +1,2 @@
+module BankersdiscountsHelper
+end

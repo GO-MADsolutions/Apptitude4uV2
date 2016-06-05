@@ -1,0 +1,2 @@
+module LogarithmsHelper
+end

@@ -3,6 +3,16 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+gem 'spring'
+  gem 'devise'
+  gem 'bootstrap-sass' 
+  gem 'autoprefixer-rails'
+  gem 'formtastic-bootstrap'
+  gem 'tabulous'
+  gem 'will_paginate', '~> 3.1.0'
+  gem 'will_paginate-bootstrap'
+
+  gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
 group :production do
  gem 'pg'
@@ -27,7 +37,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 0.4.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -48,14 +58,7 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'devise'
-  gem 'bootstrap-sass' 
-  gem 'autoprefixer-rails'
-  gem 'formtastic-bootstrap'
-  gem 'tabulous'
-  gem 'will_paginate', '~> 3.1.0'
-  gem 'will_paginate-bootstrap'
+  
 
 end
 
