@@ -19,6 +19,20 @@ body .main{
  overflow: hidden;
 }
 
+.multiple-rowshome
+{
+ columns: 2;
+ -webkit-columns: 2;
+    -moz-columns: 2;
+ overflow: hidden;
+}
+
+.multiple-rowshome li
+{
+
+ padding: 5px;
+width: 50%;
+}
 .multiple-rows li
 {
  list-style-type: none;

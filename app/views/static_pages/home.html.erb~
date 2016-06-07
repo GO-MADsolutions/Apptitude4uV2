@@ -4,7 +4,7 @@
 
 <h3> Select the topics you want to learn </h3>
 
-<ol>
+<ol class="multiple-rowshome">
 <li> <%= link_to "Age", ages_url %>
 <li> <%= link_to "Area", areas_url %>
 <li> <%= link_to "Average", averages_url %>
@@ -27,7 +27,7 @@
 <li> <%= link_to "probabilitys", probabilitys_url %>
 
 <li> <%= link_to "races and games", racesandgames_url %>
-<li> <%= link_to "series find missing numbers", seriesfindmissingnumbers_url %>
+
 <li> <%= link_to "series odd man outs", seriesoddmanouts_url %>
 <li> <%= link_to "simple interest", simpleinterests_url %>
 <li> <%= link_to "simplifications", simplifications_url %>

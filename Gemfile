@@ -11,6 +11,8 @@ gem 'spring'
   gem 'tabulous'
   gem 'will_paginate', '~> 3.1.0'
   gem 'will_paginate-bootstrap'
+  gem "breadcrumbs_on_rails"
+  gem 'tinymce-rails'
 
   gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
