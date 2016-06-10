@@ -19131,3 +19131,221 @@ Processing by SimplificationsController#index as HTML
   Rendered simplifications/index.html.erb within layouts/application (1.4ms)
   Rendered static_pages/_header.html.erb (0.4ms)
 Completed 200 OK in 321ms (Views: 320.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-11 02:37:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.5ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+Completed 200 OK in 1992ms (Views: 1966.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages" for 127.0.0.1 at 2016-06-11 02:37:49 +0530
+Processing by AgesController#index as HTML
+  Rendered ages/index.html.erb within layouts/application (8.6ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+Completed 200 OK in 314ms (Views: 312.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages/problems" for 127.0.0.1 at 2016-06-11 02:37:51 +0530
+Processing by AgesController#problems as HTML
+  [1m[35mAge Load (0.3ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (98.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 380ms (Views: 367.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/ages/problems?page=2" for 127.0.0.1 at 2016-06-11 02:37:53 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAge Load (2.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 2
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (21.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 523ms (Views: 519.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/ages/problems?page=3" for 127.0.0.1 at 2016-06-11 02:37:55 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"3"}
+  [1m[35mAge Load (2.9ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 4
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (10.8ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 320ms (Views: 307.3ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/ages/problems?page=2" for 127.0.0.1 at 2016-06-11 02:37:59 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAge Load (0.3ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 2
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (9.7ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 418ms (Views: 414.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ages/problems?page=2" for 127.0.0.1 at 2016-06-11 02:38:00 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mAge Load (3.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 2
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (18.3ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 269ms (Views: 263.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-11 02:38:01 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (7.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+Completed 200 OK in 421ms (Views: 420.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/probabilitys" for 127.0.0.1 at 2016-06-11 02:38:03 +0530
+Processing by ProbabilitysController#index as HTML
+  Rendered probabilitys/index.html.erb within layouts/application (6.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 692ms (Views: 689.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/probabilitys/problems" for 127.0.0.1 at 2016-06-11 02:38:06 +0530
+Processing by ProbabilitysController#problems as HTML
+  [1m[35mProbability Load (0.2ms)[0m  SELECT  "probabilities".* FROM "probabilities" LIMIT 2 OFFSET 0
+  Rendered probabilitys/problems.html.erb within layouts/application (5.3ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+Completed 200 OK in 400ms (Views: 389.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-11 02:38:11 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 276ms (Views: 274.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decimalfractions" for 127.0.0.1 at 2016-06-11 02:38:12 +0530
+Processing by DecimalfractionsController#index as HTML
+  Rendered decimalfractions/index.html.erb within layouts/application (7.7ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 321ms (Views: 320.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decimalfractions/problems" for 127.0.0.1 at 2016-06-11 02:38:14 +0530
+Processing by DecimalfractionsController#problems as HTML
+  [1m[36mDecimalfraction Load (0.3ms)[0m  [1mSELECT  "decimalfractions".* FROM "decimalfractions" LIMIT 2 OFFSET 0[0m
+  Rendered decimalfractions/problems.html.erb within layouts/application (12.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 458ms (Views: 413.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/decimalfractions/new" for 127.0.0.1 at 2016-06-11 02:38:29 +0530
+Processing by DecimalfractionsController#new as HTML
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-06-11 02:38:29 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (58.6ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 620ms (Views: 576.8ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-06-11 02:38:40 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SfxHEivtrM0T6jIZCXfo4mPHt3+K3ZluU2PwYXi9cTDEGR9i1gYPs3nX549j8jRmyY4sHpG/EqzUgU6297gsmw==", "user"=>{"email"=>"gomadsolutions@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "gomadsolutions@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.8ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-06-10 16:49:04.633059"], ["current_sign_in_at", "2016-06-10 21:08:41.082401"], ["sign_in_count", 7], ["updated_at", "2016-06-10 21:08:41.083785"], ["id", 1]]
+  [1m[36m (28.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/decimalfractions/new
+Completed 302 Found in 680ms (ActiveRecord: 33.8ms)
+
+
+Started GET "/decimalfractions/new" for 127.0.0.1 at 2016-06-11 02:38:41 +0530
+Processing by DecimalfractionsController#new as HTML
+  [1m[35mUser Load (2.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered decimalfractions/new.html.erb within layouts/application (20.7ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+Completed 200 OK in 705ms (Views: 698.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/tinymce/themes/modern/theme.js" for 127.0.0.1 at 2016-06-11 02:38:42 +0530
+
+
+Started GET "/assets/tinymce/plugins/link/plugin.js" for 127.0.0.1 at 2016-06-11 02:38:42 +0530
+
+
+Started GET "/assets/tinymce/plugins/image/plugin.js" for 127.0.0.1 at 2016-06-11 02:38:42 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/skin.min.css" for 127.0.0.1 at 2016-06-11 02:38:43 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-11 02:38:43 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-11 02:38:43 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/fonts/tinymce.woff" for 127.0.0.1 at 2016-06-11 02:38:43 +0530
+
+
+Started POST "/ages" for 127.0.0.1 at 2016-06-11 02:38:56 +0530
+Processing by AgesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dZgP2wFJh64kh8l/Rq1GqNUvG9+GLZBDXT9ZjOVC2K72FoaMKrpNO5iPQCgKLK/kjTHf44ch4UxWuQMEYIP7Wg==", "post"=>{"question"=>"<p>demo</p>", "solution"=>"<p>demo</p>", "optionA"=>"1", "optionB"=>"2", "optionC"=>"3", "optionD"=>"22", "answer"=>"A"}, "commit"=>"Save Post"}
+  [1m[36mUser Load (17.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "ages" ("question", "solution", "optionA", "optionB", "optionC", "optionD", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["question", "<p>demo</p>"], ["solution", "<p>demo</p>"], ["optionA", "1"], ["optionB", "2"], ["optionC", "3"], ["optionD", "22"], ["answer", "A"], ["created_at", "2016-06-10 21:08:56.804443"], ["updated_at", "2016-06-10 21:08:56.804443"]]
+  [1m[35m (16.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/ages/11
+Completed 302 Found in 69ms (ActiveRecord: 36.5ms)
+
+
+Started GET "/ages/11" for 127.0.0.1 at 2016-06-11 02:38:56 +0530
+Processing by AgesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (2.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAge Load (0.4ms)[0m  SELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered ages/show.html.erb within layouts/application (1.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 519ms (Views: 506.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-11 02:39:02 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.8ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 361ms (Views: 360.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-11 02:39:26 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-11 02:39:26 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-11 02:39:31 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (11.6ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 335ms (Views: 333.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/decimalfractions" for 127.0.0.1 at 2016-06-11 02:39:34 +0530
+Processing by DecimalfractionsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered decimalfractions/index.html.erb within layouts/application (2.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 421ms (Views: 415.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/decimalfractions/problems" for 127.0.0.1 at 2016-06-11 02:39:36 +0530
+Processing by DecimalfractionsController#problems as HTML
+  [1m[35mDecimalfraction Load (3.7ms)[0m  SELECT  "decimalfractions".* FROM "decimalfractions" LIMIT 2 OFFSET 0
+  Rendered decimalfractions/problems.html.erb within layouts/application (8.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 288ms (Views: 283.5ms | ActiveRecord: 3.7ms)
