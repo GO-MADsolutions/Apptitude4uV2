@@ -1,34 +1,35 @@
-<h1> create a new age problem </h1>
+<h1> create a new stocks and share problem </h1>
 
 
-<%= form_for :post, url: ages_path do |f| %>
+<%= form_for :post, url: stocksandshares_path do |f| %>
 <p>
 <%= f.label :question %> <br>
-<%= f.text_area :question %>
+<%= f.text_area :question, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :solution %> <br>
-<%= f.text_area :solution %>
+<%= f.text_area :solution, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :optionA %> <br>
-<%= f.text_field :optionA %>
+<%= f.text_field :optionA, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :optionB %> <br>
-<%= f.text_field :optionB %>
+<%= f.text_field :optionB, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :optionC %> <br>
-<%= f.text_field :optionC %>
+<%= f.text_field :optionC, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :optionD %> <br>
-<%= f.text_field :optionD %>
+<%= f.text_field :optionD, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <p>
 <%= f.label :answer %> <br>
-<%= f.text_field :answer %>
+<%= f.text_field :answer, :class => "tinymce", :rows => 40, :cols => 40 %>
 </p>
 <%= f.submit %>
 <% end %>
+<%= tinymce %>

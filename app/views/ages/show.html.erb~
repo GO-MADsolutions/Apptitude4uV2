@@ -1,14 +1,14 @@
 <h1> Showing newly created post </h1>
 
 
-<%= @post.question %> <br>
-<%= @post.solution %> <br>
-<%= @post.optionA %> <br>
-<%= @post.optionB %> <br>
-<%= @post.optionC %> <br>
-<%= @post.optionD %> <br>
-<%= @post.answer %> <br> <br>
+<%= raw @post.question %> <br>
+<%=raw @post.solution %> <br>
+<%= raw @post.optionA %> <br>
+<%= raw @post.optionB %> <br>
+<%= raw @post.optionC %> <br>
+<%= raw @post.optionD %> <br>
+<%= raw @post.answer %> <br> <br>
 
 
-<b><%= time_ago_in_words(@post.created_at) %> Age </b>
+<b><%= time_ago_in_words(@post.created_at) %> Ago </b>
 

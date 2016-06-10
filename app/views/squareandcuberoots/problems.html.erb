@@ -1,6 +1,6 @@
 
 
-<h1> Age Problems </h1>
+<h1> squareandcuberoot Problems </h1>
 <%- page = params[:page].to_i %>
 <ol start = <%= page > 1 ? (((page-1) * 2) + 1) : 1 %>>
 
@@ -8,27 +8,27 @@
 
 <li>
  
-<p>  <%= p.question %> </P>
+<p>  <%= raw p.question %> </P>
 
 <ol class="multiple-rows">
-<li>  A. <%= p.optionA %> </li>
-<li> B. <%= p.optionB %> </li>
- <li> C. <%= p.optionC %> </li>
-<li> D. <%= p.optionD %></li>
+<li>  A. <%= raw p.optionA %> </li>
+<li> B. <%= raw p.optionB %> </li>
+ <li> C. <%= raw p.optionC %> </li>
+<li> D. <%= raw p.optionD %></li>
 </ol>
 <div class="hidesol">
  <button class="btn btn-warning btn-outline btn-sm">Show Solution </button>
 
 <div class="solution">
-<b><p> Answer: <%= p.answer %> </P> </br> <br>
-<p>Solution: <br> <%= p.solution %> </P>
+<b><p> Answer: <%= raw p.answer %> </P> </br> <br>
+<p>Solution: <br> <%=raw  p.solution %> </P>
 
 </div>
 </div> 
 </li>
 <% if user_signed_in? %>
-<%= link_to "edit", edit_age_path(p) %>
-<%= link_to "Delete", age_path(p), method: :delete, data: {confirm: "Are you sure"} %>
+<%= link_to "edit", edit_squareandcuberoot_path(p) %>
+<%= link_to "Delete", squareandcuberoot_path(p), method: :delete, data: {confirm: "Are you sure"} %>
 <% end %>
 <hr>
 

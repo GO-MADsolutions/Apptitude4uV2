@@ -9,7 +9,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def problems
 
-   @posts = Age.paginate(:page => params[:page], :per_page => 2)
+   @posts = Seriesfindmissingnumber.paginate(:page => params[:page], :per_page => 2)
  end
 
  
@@ -18,14 +18,14 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
  
  def show
- @post = Age.find(params[:id])
+ @post = Seriesfindmissingnumber.find(params[:id])
  end
 
  def index
  end
 
  def create
- @post = Age.new(post_params)
+ @post = Seriesfindmissingnumber.new(post_params)
  if@post.save
    redirect_to @post
  else
@@ -34,12 +34,12 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  def edit
- @post = Age.find(params[:id])
+ @post = Seriesfindmissingnumber.find(params[:id])
  end
  
  def update
- @post = Age.find(params[:id])
- if @post.update(params[:age].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
+ @post = Seriesfindmissingnumber.find(params[:id])
+ if @post.update(params[:seriesfindmissingnumber].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
  redirect_to @post
  else 
   render 'edit'
@@ -48,7 +48,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
 
  def destroy
- @post = Age.find(params[:id]) 
+ @post = Seriesfindmissingnumber.find(params[:id]) 
  @post.destroy
  render 'index'
  end

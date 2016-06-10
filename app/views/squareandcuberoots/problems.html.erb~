@@ -1,0 +1,66 @@
+
+
+<h1> squareandcuberoot Problems </h1>
+<%- page = params[:page].to_i %>
+<ol start = <%= page > 1 ? (((page-1) * 2) + 1) : 1 %>>
+
+<% @posts.each do |p| %>
+
+<li>
+ 
+<p>  <%= raw p.question %> </P>
+
+<ol class="multiple-rows">
+<li>  A. <%= raw p.optionA %> </li>
+<li> B. <%= raw p.optionB %> </li>
+ <li> C. <%= raw p.optionC %> </li>
+<li> D. <%= raw p.optionD %></li>
+</ol>
+<div class="hidesol">
+ <button class="btn btn-warning btn-outline btn-sm">Show Solution </button>
+
+<div class="solution">
+<b><p> Answer: <%= raw p.answer %> </P> </br> <br>
+<p>Solution: <br> <%=raw  p.solution %> </P>
+
+</div>
+</div> 
+</li>
+<% if user_signed_in? %>
+<%= link_to "edit", edit_age_path(p) %>
+<%= link_to "Delete", age_path(p), method: :delete, data: {confirm: "Are you sure"} %>
+<% end %>
+<hr>
+
+<% end %>
+
+</ol>
+<%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+  $(".solution").hide();
+$(".hidesol").children('button').click(function()
+{
+ if($(this).text().trim() == "Hide Solution")
+{
+ $(this).html("Show Solution");
+$(this).siblings(".solution").hide();
+}
+
+else if($(this).text().trim() == "Show Solution")
+{
+ $(this).html("Hide Solution");
+$(this).siblings(".solution").show();
+}
+ /* var r = $(this).text();
+  alert($(this).text()) */
+  
+   
+});
+
+});
+
+</script>
