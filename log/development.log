@@ -19024,3 +19024,32 @@ Completed 200 OK in 656ms (Views: 614.0ms | ActiveRecord: 32.5ms)
   [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "surdsandindices"
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "timeanddistances"[0m
   [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "timeandworks"
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-11 00:58:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.7ms)
+  Rendered static_pages/_header.html.erb (1.7ms)
+Completed 200 OK in 1577ms (Views: 1528.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/boatsandstreams" for 127.0.0.1 at 2016-06-11 00:58:09 +0530
+Processing by BoatsandstreamsController#index as HTML
+  Rendered boatsandstreams/index.html.erb within layouts/application (16.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+Completed 200 OK in 230ms (Views: 223.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/probabilitys" for 127.0.0.1 at 2016-06-11 00:58:15 +0530
+Processing by ProbabilitysController#index as HTML
+  Rendered probabilitys/index.html.erb within layouts/application (1.1ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 210ms (Views: 209.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/simpleinterests" for 127.0.0.1 at 2016-06-11 00:58:18 +0530
+Processing by SimpleinterestsController#index as HTML
+  Rendered simpleinterests/index.html.erb within layouts/application (6.6ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 242ms (Views: 241.5ms | ActiveRecord: 0.0ms)
