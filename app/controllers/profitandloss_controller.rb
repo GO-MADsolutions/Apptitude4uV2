@@ -38,8 +38,8 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
  
  def update
- @post =  Profitandloss.find(params[:id])
- if @post.update(params[: profitandloss].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
+ @post = Profitandloss.find(params[:id])
+ if @post.update(params[:profitandloss].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
  redirect_to @post
  else 
   render 'edit'

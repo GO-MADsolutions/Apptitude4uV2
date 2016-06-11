@@ -54,6 +54,6 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
  private
   def post_params
-   params.require(:post).permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer)
+   params.require(:post).permit(:question, :solution, :optionA, :optionB, :optionC, :opdtionD, :answer)
   end
 end

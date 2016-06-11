@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160603151734) do
+ActiveRecord::Schema.define(version: 20160610222017) do
 
   create_table "ages", force: :cascade do |t|
     t.text     "question"
@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -79,7 +79,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -91,7 +91,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -103,7 +103,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -115,7 +115,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -127,7 +127,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -139,7 +139,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -151,7 +151,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -163,7 +163,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -175,7 +175,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -187,7 +187,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -199,7 +199,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -223,7 +223,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -235,7 +235,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -247,7 +247,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -259,7 +259,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -271,7 +271,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -283,7 +283,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -295,7 +295,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -307,7 +307,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -319,7 +319,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -331,7 +331,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -355,7 +355,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -367,7 +367,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -379,7 +379,7 @@ ActiveRecord::Schema.define(version: 20160603151734) do
     t.string   "optionA"
     t.string   "optionB"
     t.string   "optionC"
-    t.string   "opdtionD"
+    t.string   "optionD"
     t.text     "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
