@@ -1,5 +1,5 @@
 
-<h1> Age  </h1>
+<h1> Train  </h1>
 
 <ol>
 <% if user_signed_in? %>

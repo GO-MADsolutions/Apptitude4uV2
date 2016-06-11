@@ -1,9 +1,9 @@
 
-<h1> Decimalfraction  </h1>
+<h1> Decimal Fraction  </h1>
 
 <ol>
 <% if user_signed_in? %>
-<li><%= link_to "Create Problem", new_age_url %></li>
+<li><%= link_to "Create Problem", new_decimalfraction_url %></li>
 <% end %>
 <li><%= link_to "Show Formula", decimalfractions_formula_url %></li>
 <li><%= link_to "Show Problem", decimalfractions_problems_url %></li>

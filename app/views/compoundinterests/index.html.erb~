@@ -1,9 +1,9 @@
 
-<h1> Compoundinterest  </h1>
+<h1> Compound Interest  </h1>
 
 <ol>
 <% if user_signed_in? %>
-<li><%= link_to "Create Problem", new_age_url %></li>
+<li><%= link_to "Create Problem", new_compoundinterest_url %></li>
 <% end %>
 <li><%= link_to "Show Formula", compoundinterests_formula_url %></li>
 <li><%= link_to "Show Problem", compoundinterests_problems_url %></li>

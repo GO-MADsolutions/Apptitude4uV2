@@ -1,10 +1,10 @@
 
-<h1> Stocks And Shares  </h1>
+<h1> Stock And Shares  </h1>
 
 <ol>
 <% if user_signed_in? %>
-<li><%= link_to "Create Problem", new_stocksandshare_url %></li>
+<li><%= link_to "Create Problem", new_stockandshare_url %></li>
 <% end %>
-<li><%= link_to "Show Formula", stocksandshares_formula_url %></li>
-<li><%= link_to "Show Problem", stocksandshares_problems_url %></li>
+<li><%= link_to "Show Formula", stockandshares_formula_url %></li>
+<li><%= link_to "Show Problem", stockandshares_problems_url %></li>
 <ol>

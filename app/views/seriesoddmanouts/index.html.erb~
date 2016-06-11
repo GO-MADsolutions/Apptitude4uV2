@@ -1,9 +1,9 @@
 
-<h1> Seriesoddmanout  </h1>
+<h1> Series Odd Man Out  </h1>
 
 <ol>
 <% if user_signed_in? %>
-<li><%= link_to "Create Problem", new_age_url %></li>
+<li><%= link_to "Create Problem", new_seriesoddmanout_url %></li>
 <% end %>
 <li><%= link_to "Show Formula", seriesoddmanouts_formula_url %></li>
 <li><%= link_to "Show Problem", seriesoddmanouts_problems_url %></li>
