@@ -17,6 +17,7 @@ body .main{
  -webkit-columns: 2;
     -moz-columns: 2;
  overflow: hidden;
+
 }
 
 .multiple-rowshome
@@ -24,9 +25,17 @@ body .main{
  columns: 2;
  -webkit-columns: 2;
     -moz-columns: 2;
+ margin: auto;
+
  overflow: hidden;
+ 
 }
 
+.homeborder
+{
+
+border-style: double;
+}
 .multiple-rowshome li
 {
 
@@ -38,4 +47,9 @@ width: 50%;
  list-style-type: none;
  padding: 5px;
 width: 50%;
+}
+
+.authors .parent .author
+{
+  float: left;
 }
