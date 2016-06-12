@@ -5,26 +5,26 @@
     <tr>
       
       <td><%= image_tag("Remina.jpg", size: "150x150", class: "img-circle") %></td>
-      <td><a href="https://www.facebook.com/remina.agnes?fref=ts">Remina </a> has been doing his CSE B.E in K.C.G Institute Of Technology</td>
+      <td><a href="https://www.facebook.com/remina.agnes?fref=ts" target="_blank">Remina </a> has been doing his CSE B.E in K.C.G Institute Of Technology</td>
       
     </tr>
     <tr>
       
       <td><%= image_tag("karthick.jpg", size: "150x150", class: "img-circle") %></td>
-      <td><p><a href ="https://www.facebook.com/profile.php?id=100007159956550&fref=photo">Karthick </a> has been doing his CSE B.E in Mamallan Engineering College</p>
+      <td><p><a href ="https://www.facebook.com/profile.php?id=100007159956550&fref=photo" target="_blank">Karthick </a> has been doing his CSE B.E in Mamallan Engineering College</p>
         </td>
       
     </tr>
     <tr>
       
       <td><%= image_tag("achu.jpg", size: "150x150", class: "img-circle") %></td>
-      <td><a href="https://www.facebook.com/selvam.achu?fref=ts">Achu </a> has been doing his CSE B.E in Misrimal Navajee Munoth Jain Engineering College </td>
+      <td><a href="https://www.facebook.com/selvam.achu?fref=ts" target="_blank">Achu </a> has been doing his CSE B.E in Misrimal Navajee Munoth Jain Engineering College </td>
       
     </tr>
     <tr>
       
       <td><%= image_tag("bro.jpg", size: "150x150", class: "img-circle") %></td>
-      <td><a href="https://www.facebook.com/goutham.palani.5">Goutham </a> has been doing his CSE B.E in Misrimal Navajee Munoth Jain Engineering College </td>
+      <td><a href="https://www.facebook.com/goutham.palani.5" target="_blank">Goutham </a> has been working in Hewlett Packard Enterprise for 3 years </td>
 
       
     </tr>
