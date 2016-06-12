@@ -40,13 +40,13 @@ border-style: double;
 {
 
  padding: 5px;
-width: 50%;
+
 }
 .multiple-rows li
 {
  list-style-type: none;
  padding: 5px;
-width: 50%;
+
 }
 
 .authors .parent .author
