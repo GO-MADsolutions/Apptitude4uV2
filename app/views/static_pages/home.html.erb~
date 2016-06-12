@@ -32,7 +32,7 @@
 <li> <%= link_to "simple interest", simpleinterests_url %>
 <li> <%= link_to "simplifications", simplifications_url %>
 <li> <%= link_to "square and cube roots", squareandcuberoots_url %>
-<li> <%= link_to "static pages", static_pages_url %>
+
 <li> <%= link_to "stocks and shares", stocksandshares_url %>
 <li> <%= link_to "surds and indices", surdsandindices_url %>
 <li> <%= link_to "time and distances", timeanddistances_url %>
