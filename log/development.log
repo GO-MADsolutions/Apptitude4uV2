@@ -58396,3 +58396,14 @@ Started GET "/assets/bro-87d6c16e1d5269f1c6a8b48aeef381a08435834581131338e26f824
 
 
 Started GET "/assets/karthick-ae32e55fadf9fd87132f8205856700919297e4bbdbca3d6e48180e334a7bb0cc.jpg" for 127.0.0.1 at 2016-06-13 01:05:38 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 01:25:05 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (7.8ms)
+  Rendered static_pages/_header.html.erb (2.0ms)
+Completed 200 OK in 14639ms (Views: 14621.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custoom.self-e354d6d06ee9103e3b47c7e512d9eba144af7ada9cd80767a85485dcc5d592a1.css?body=1" for 127.0.0.1 at 2016-06-13 01:25:20 +0530
