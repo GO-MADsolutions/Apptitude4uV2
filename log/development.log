@@ -60762,3 +60762,560 @@ Processing by StaticPagesController#calculator as HTML
   Rendered static_pages/calculator.html.erb within layouts/application (0.1ms)
   Rendered static_pages/_header.html.erb (0.4ms)
 Completed 200 OK in 295ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:48:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.4ms)
+  Rendered static_pages/_header.html.erb (5.5ms)
+Completed 200 OK in 1440ms (Views: 1403.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calculator" for 127.0.0.1 at 2016-06-14 08:48:50 +0530
+Processing by StaticPagesController#calculator as HTML
+  Rendered static_pages/calculator.html.erb within layouts/application (0.4ms)
+  Rendered static_pages/_header.html.erb (1.0ms)
+Completed 200 OK in 196ms (Views: 194.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calculator" for 127.0.0.1 at 2016-06-14 08:48:53 +0530
+Processing by StaticPagesController#calculator as HTML
+  Rendered static_pages/calculator.html.erb within layouts/application (4.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 536ms (Views: 535.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/custoom.self-3790cc81502c2cdb841ff385907a65e65f06e40d478a2c606c0121096ca2c822.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:54 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:55 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-14 08:48:56 +0530
+
+
+Started GET "/static_pages/calculator" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+Processing by StaticPagesController#calculator as HTML
+  Rendered static_pages/calculator.html.erb within layouts/application (0.6ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 342ms (Views: 341.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/custoom.self-3790cc81502c2cdb841ff385907a65e65f06e40d478a2c606c0121096ca2c822.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:42 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:43 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-14 08:49:44 +0530
