@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav ">
                 <li><%= link_to "Home", static_pages_home_url %></li>
                 <li><%= link_to "Authors", static_pages_authors_url %></li>
-                
+                <li><%= link_to "Calculator", static_pages_calculator_url %></li>
            
                 <li><a href="#">Login</a></li>
             

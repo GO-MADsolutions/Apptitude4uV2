@@ -5,6 +5,7 @@ source 'https://rubygems.org'
   gem 'rails', '4.2.6'
   gem 'spring'
   gem 'devise'
+ 
   gem 'bootstrap-sass' 
   gem 'autoprefixer-rails'
   gem 'formtastic-bootstrap'

@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'static_pages/home'
 
   get 'static_pages/authors'
-  
+  get 'static_pages/calculator'
   get 'static_pages/aboutus'
 get 'ages/problems'
 get 'ages/formula'

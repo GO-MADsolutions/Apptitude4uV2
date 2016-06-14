@@ -24,7 +24,7 @@ body .main{
 {
  columns: 2;
  -webkit-columns: 2;
-    -moz-columns: 2;
+ -moz-columns: 2;
  margin: auto;
 
  overflow: hidden;
@@ -36,17 +36,18 @@ body .main{
 
 border-style: double;
 }
+
 .multiple-rowshome li
 {
-
+ 
  padding: 5px;
-
+ 
 }
 .multiple-rows li
 {
  list-style-type: none;
  padding: 5px;
-
+ align: left;
 }
 
 .authors .parent .author

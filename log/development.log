@@ -58407,3 +58407,2358 @@ Completed 200 OK in 14639ms (Views: 14621.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/custoom.self-e354d6d06ee9103e3b47c7e512d9eba144af7ada9cd80767a85485dcc5d592a1.css?body=1" for 127.0.0.1 at 2016-06-13 01:25:20 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 09:00:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.9ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+Completed 200 OK in 30112ms (Views: 30066.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custoom.self-3572d93986ce40f9e06f789ae7911a08365df1352b8c69b80162cca44c9c35ec.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:16 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 09:01:39 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (6.7ms)
+  Rendered static_pages/_header.html.erb (4.4ms)
+Completed 200 OK in 16758ms (Views: 16757.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:55 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:55 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/custoom.self-e6a95de3411d51f8ca4e0149100e564cb164c8d249c28674f5e6742bccb6d0b0.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:56 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:57 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-13 09:01:58 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 09:02:02 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 15438ms (Views: 15437.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:17 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/custoom.self-84097e7fc408514557e30ec2cd7f467d6046f1ca835e347eb9fec3f4ce5a8c45.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:18 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:19 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:20 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 09:02:39 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 15980ms (Views: 15978.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/custoom.self-fbf553281d143358f36732ef3c87271e3395bd2e565b07635e7f424c000cfad3.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:56 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:57 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:58 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:58 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:58 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-13 09:02:58 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 09:03:53 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 14387ms (Views: 14385.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/custoom.self-3790cc81502c2cdb841ff385907a65e65f06e40d478a2c606c0121096ca2c822.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:07 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:08 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:09 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-13 09:04:10 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 16:37:01 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (21.7ms)
+  Rendered static_pages/_header.html.erb (1.0ms)
+Completed 200 OK in 4039ms (Views: 3973.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages" for 127.0.0.1 at 2016-06-13 16:37:11 +0530
+Processing by AgesController#index as HTML
+  Rendered ages/index.html.erb within layouts/application (12.1ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+Completed 200 OK in 322ms (Views: 320.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages/problems" for 127.0.0.1 at 2016-06-13 16:37:13 +0530
+Processing by AgesController#problems as HTML
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (320.5ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 542ms (Views: 520.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/ages/problems?page=6" for 127.0.0.1 at 2016-06-13 16:37:17 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"6"}
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 10
+  Rendered ages/problems.html.erb within layouts/application (4.0ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 184ms (Views: 180.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ages/problems?page=5" for 127.0.0.1 at 2016-06-13 16:37:19 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"5"}
+  [1m[36mAge Load (0.3ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 8[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (3.3ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 201ms (Views: 200.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ages/problems?page=4" for 127.0.0.1 at 2016-06-13 16:37:22 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 6[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (13.6ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 204ms (Views: 202.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ages/problems?page=3" for 127.0.0.1 at 2016-06-13 16:37:23 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 4[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (3.0ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 191ms (Views: 189.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ages/problems?page=2" for 127.0.0.1 at 2016-06-13 16:37:24 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 2[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (5.7ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+Completed 200 OK in 394ms (Views: 391.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ages/problems?page=1" for 127.0.0.1 at 2016-06-13 16:37:25 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"1"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (6.4ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 436ms (Views: 435.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ages/problems?page=3" for 127.0.0.1 at 2016-06-13 16:37:26 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 4[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (3.7ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 302ms (Views: 300.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ages/problems?page=4" for 127.0.0.1 at 2016-06-13 16:37:26 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 6[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (6.3ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 303ms (Views: 301.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ages/problems?page=5" for 127.0.0.1 at 2016-06-13 16:37:28 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"5"}
+  [1m[36mAge Load (0.3ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 8[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "ages"
+  Rendered ages/problems.html.erb within layouts/application (11.9ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 329ms (Views: 327.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ages/problems?page=6" for 127.0.0.1 at 2016-06-13 16:37:29 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"6"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 10[0m
+  Rendered ages/problems.html.erb within layouts/application (9.7ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 265ms (Views: 264.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ages/problems?page=5" for 127.0.0.1 at 2016-06-13 16:37:30 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"5"}
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 8
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (3.0ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 183ms (Views: 182.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ages/problems?page=1" for 127.0.0.1 at 2016-06-13 16:37:37 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"1"}
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  Rendered ages/problems.html.erb within layouts/application (3.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 296ms (Views: 294.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/ages/new" for 127.0.0.1 at 2016-06-13 16:39:02 +0530
+Processing by AgesController#new as HTML
+Completed 401 Unauthorized in 34ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-06-13 16:39:02 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (83.1ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 554ms (Views: 509.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-06-13 16:39:10 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.1ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 266ms (Views: 264.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-06-13 16:39:15 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 253ms (Views: 247.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages/new" for 127.0.0.1 at 2016-06-13 16:39:26 +0530
+Processing by AgesController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-06-13 16:39:26 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 423ms (Views: 422.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-06-13 16:39:35 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hT6l0tyvmqJIXMpQMzDJG2NOx/pFI0ikw4QzUpUDSFs/pFufTWNT9/Y7TtVrE32UyncqwuAp2mU30We3oWq87Q==", "user"=>{"email"=>"gomadsolutions@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "gomadsolutions@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-06-10 21:38:01.580650"], ["current_sign_in_at", "2016-06-13 11:09:35.950001"], ["sign_in_count", 9], ["updated_at", "2016-06-13 11:09:35.962889"], ["id", 1]]
+  [1m[36m (19.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ages/new
+Completed 302 Found in 612ms (ActiveRecord: 20.7ms)
+
+
+Started GET "/ages/new" for 127.0.0.1 at 2016-06-13 16:39:36 +0530
+Processing by AgesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ages/new.html.erb within layouts/application (16.7ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 427ms (Views: 420.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tinymce/themes/modern/theme.js" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/plugins/image/plugin.js" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/plugins/link/plugin.js" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/skin.min.css" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/fonts/tinymce.woff" for 127.0.0.1 at 2016-06-13 16:39:37 +0530
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-13 16:39:41 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.0ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 294ms (Views: 292.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages" for 127.0.0.1 at 2016-06-13 16:39:44 +0530
+Processing by AgesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered ages/index.html.erb within layouts/application (10.7ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 286ms (Views: 285.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/ages/problems" for 127.0.0.1 at 2016-06-13 16:39:49 +0530
+Processing by AgesController#problems as HTML
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "ages"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ages/problems.html.erb within layouts/application (13.7ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 216ms (Views: 200.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/ages/problems?page=6" for 127.0.0.1 at 2016-06-13 16:39:54 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"6"}
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 10[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ages/problems.html.erb within layouts/application (3.1ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 247ms (Views: 246.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/ages/15/edit" for 127.0.0.1 at 2016-06-13 16:39:56 +0530
+Processing by AgesController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAge Load (0.2ms)[0m  SELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered ages/_form.html.erb (9.4ms)
+  Rendered ages/edit.html.erb within layouts/application (31.2ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 308ms (Views: 259.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:39:56 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:39:56 +0530
+
+
+Started GET "/ages/15/edit" for 127.0.0.1 at 2016-06-13 16:40:13 +0530
+Processing by AgesController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAge Load (0.1ms)[0m  SELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered ages/_form.html.erb (17.7ms)
+  Rendered ages/edit.html.erb within layouts/application (26.0ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+Completed 200 OK in 549ms (Views: 541.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:13 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:13 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:13 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:13 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/custoom.self-3790cc81502c2cdb841ff385907a65e65f06e40d478a2c606c0121096ca2c822.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:14 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/themes/modern/theme.js" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/plugins/image/plugin.js" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/plugins/link/plugin.js" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/skin.min.css" for 127.0.0.1 at 2016-06-13 16:40:15 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:40:16 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:40:16 +0530
+
+
+Started PATCH "/ages/15" for 127.0.0.1 at 2016-06-13 16:40:23 +0530
+Processing by AgesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lW9nwDGXVxWliBbQq3+Z95DygQoay6CtbZr0rNXsXwq/eLKMYrwjl7+XSxggT+Ph6yimNgXvbUc82mXoIBkzsw==", "age"=>{"question"=>"<p>demo by remina</p>", "solution"=>"<p>demoq</p>", "optionA"=>"1", "optionB"=>"2", "optionC"=>"3", "optionD"=>"11", "answer"=>"A"}, "commit"=>"Update Age", "id"=>"15"}
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAge Load (0.1ms)[0m  SELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "ages" SET "question" = ?, "updated_at" = ? WHERE "ages"."id" = ?  [["question", "<p>demo by remina</p>"], ["updated_at", "2016-06-13 11:10:23.686918"], ["id", 15]]
+  [1m[36m (88.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/ages/15
+Completed 302 Found in 115ms (ActiveRecord: 91.7ms)
+
+
+Started GET "/ages/15" for 127.0.0.1 at 2016-06-13 16:40:23 +0530
+Processing by AgesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mAge Load (0.1ms)[0m  [1mSELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered ages/show.html.erb within layouts/application (1.0ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+Completed 200 OK in 408ms (Views: 399.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-13 16:40:26 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.8ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 248ms (Views: 247.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ages" for 127.0.0.1 at 2016-06-13 16:40:28 +0530
+Processing by AgesController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered ages/index.html.erb within layouts/application (2.4ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 238ms (Views: 236.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/ages/problems" for 127.0.0.1 at 2016-06-13 16:40:30 +0530
+Processing by AgesController#problems as HTML
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "ages"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered ages/problems.html.erb within layouts/application (6.0ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 195ms (Views: 193.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/ages/problems?page=6" for 127.0.0.1 at 2016-06-13 16:40:32 +0530
+Processing by AgesController#problems as HTML
+  Parameters: {"page"=>"6"}
+  [1m[35mAge Load (2.7ms)[0m  SELECT  "ages".* FROM "ages" LIMIT 2 OFFSET 10
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered ages/problems.html.erb within layouts/application (24.5ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 256ms (Views: 249.9ms | ActiveRecord: 5.0ms)
+
+
+Started DELETE "/ages/15" for 127.0.0.1 at 2016-06-13 16:40:36 +0530
+Processing by AgesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gRauSjQCI6DImM4WSUEw16R/AwUnM3LHhjc0WPiOnpKrAXsGZylXItKHk97CcUrB36UkOTgXvy3Xd6UcDXvyKw==", "id"=>"15"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mAge Load (0.2ms)[0m  [1mSELECT  "ages".* FROM "ages" WHERE "ages"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "ages" WHERE "ages"."id" = ?[0m  [["id", 15]]
+  [1m[35m (239.6ms)[0m  commit transaction
+  Rendered ages/index.html.erb within layouts/application (1.0ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 688ms (Views: 432.1ms | ActiveRecord: 240.2ms)
+
+
+Started GET "/static_pages/authors" for 127.0.0.1 at 2016-06-13 16:40:44 +0530
+Processing by StaticPagesController#authors as HTML
+  Rendered static_pages/authors.html.erb within layouts/application (14.2ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 432ms (Views: 431.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/swathi.jpg" for 127.0.0.1 at 2016-06-13 16:40:44 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/swathi.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/goutham/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/goutham/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/goutham/.rbenv/versions/2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (39.2ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (32.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (415.7ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (12.7ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (200.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-06-13 16:40:55 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 202ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/averages" for 127.0.0.1 at 2016-06-13 16:41:24 +0530
+Processing by AveragesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered averages/index.html.erb within layouts/application (2.7ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+Completed 200 OK in 216ms (Views: 209.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/averages/new" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+Processing by AveragesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered averages/new.html.erb within layouts/application (3.3ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+Completed 200 OK in 238ms (Views: 235.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tinymce/themes/modern/theme.js" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+
+
+Started GET "/assets/tinymce/plugins/image/plugin.js" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+
+
+Started GET "/assets/tinymce/plugins/link/plugin.js" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/skin.min.css" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:41:28 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/content.min.css" for 127.0.0.1 at 2016-06-13 16:41:29 +0530
+
+
+Started GET "/assets/tinymce/skins/lightgray/fonts/tinymce.woff" for 127.0.0.1 at 2016-06-13 16:41:29 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:02 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.2ms)
+  Rendered static_pages/_header.html.erb (205.5ms)
+Completed 500 Internal Server Error in 3403ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9ba87128e8>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (130.1ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (203.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:34 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered static_pages/_header.html.erb (174.7ms)
+Completed 500 Internal Server Error in 606ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9bab8c5bb0>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:37 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered static_pages/_header.html.erb (164.0ms)
+Completed 500 Internal Server Error in 763ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9ba4d36408>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.1ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.2ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (12.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (116.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:38 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered static_pages/_header.html.erb (147.6ms)
+Completed 500 Internal Server Error in 617ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9bab36f8c8>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.1ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (5.7ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.7ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:39 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.5ms)
+  Rendered static_pages/_header.html.erb (148.2ms)
+Completed 500 Internal Server Error in 620ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9baaa12fa0>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.1ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (99.3ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (123.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:32:59 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.7ms)
+  Rendered static_pages/_header.html.erb (146.1ms)
+Completed 500 Internal Server Error in 629ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9ba82811a8>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (121.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (73.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (155.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:33:02 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.2ms)
+  Rendered static_pages/_header.html.erb (158.8ms)
+Completed 500 Internal Server Error in 627ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `static_pages_calculator_url' for #<#<Class:0x007f9ba8700850>:0x007f9bab23d180>
+Did you mean?  static_pages_aboutus_url
+               static_pages_authors_url):
+    15:             <ul class="nav navbar-nav ">
+    16:                 <li><%= link_to "Home", static_pages_home_url %></li>
+    17:                 <li><%= link_to "Authors", static_pages_authors_url %></li>
+    18:                 <li><%= link_to "Calculator", static_pages_calculator_url %></li>
+    19:            
+    20:                 <li><a href="#">Login</a></li>
+    21:             
+  app/views/static_pages/_header.html.erb:18:in `_app_views_static_pages__header_html_erb__1298676229952182296_70153259474260'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4361569611341754401_70153261451160'
+
+
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.8ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.6ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/goutham/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 08:34:03 +0530
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 446ms (Views: 445.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/boatsandstreams.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/averages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/areas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/chainrules.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/calendars.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/clocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/compoundinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/custoom.self-3790cc81502c2cdb841ff385907a65e65f06e40d478a2c606c0121096ca2c822.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/decimalfractions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/hcfandlcms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/heightanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/logarithms.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/numbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/partnerships.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/percentages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/probabilitys.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:04 +0530
+
+
+Started GET "/assets/profitandloss.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/racesandgames.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/simpleinterests.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/simplifications.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/stocksandshares.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/surdsandindices.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/timeanddistances.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/timeandworks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/trains.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/application.self-69e7fea5a9573dd8b324bc8f422df308efffab3fae68e6e0d30717ec660dfa63.css?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/ages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/areas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/averages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/bankersdiscounts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/boatsandstreams.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/calendars.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/chainrules.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/clocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/compoundinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/decimalfractions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/hcfandlcms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/heightanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/logarithms.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/mixtureandalligations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/numbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/partnerships.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:05 +0530
+
+
+Started GET "/assets/percentages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/permutationandcombinations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/pipesandcisterns.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/probabilitys.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/profitandloss.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/racesandgames.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/seriesfindmissingnumbers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/seriesoddmanouts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/simpleinterests.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/simplifications.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/squareandcuberoots.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/stocksandshares.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/surdsandindices.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/timeanddistances.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/timeandworks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/trains.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/tinymce/preinit.self-84328a53e798df12f891eb49871773fd9f925439c8630e9e22423a82ef9e6f89.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/tinymce/tinymce.self-5a9a6f4631e1fd0e166d367202bdec1df891b481fb674fc3b63235872faa3c68.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/tinymce.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-06-14 08:34:06 +0530
+
+
+Started GET "/static_pages/calculator" for 127.0.0.1 at 2016-06-14 08:34:08 +0530
+Processing by StaticPagesController#calculator as HTML
+  Rendered static_pages/calculator.html.erb within layouts/application (0.5ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+Completed 200 OK in 316ms (Views: 315.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/calculator" for 127.0.0.1 at 2016-06-14 08:34:53 +0530
+Processing by StaticPagesController#calculator as HTML
+  Rendered static_pages/calculator.html.erb within layouts/application (0.1ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+Completed 200 OK in 295ms (Views: 294.1ms | ActiveRecord: 0.0ms)

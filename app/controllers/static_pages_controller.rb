@@ -14,4 +14,6 @@ def header
 
   def aboutus
   end
+  def calculator
+  end
 end
