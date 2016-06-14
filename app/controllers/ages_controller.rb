@@ -1,4 +1,6 @@
 class AgesController < ApplicationController
+add_breadcrumb "home", :static_pages_home_url
+add_breadcrumb "Age", :ages_url
 
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
@@ -10,7 +12,8 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def problems
 
-   @posts = Age.paginate(:page => params[:page], :per_page => 2)
+   @posts = Age.paginate(:page => params[:page], :per_page => 5)
+   add_breadcrumb "Age Problems", ages_problems_url
  end
 
  
