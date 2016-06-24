@@ -2,7 +2,7 @@ var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
 // FOR AGES TEST
 demoApp.controller("tester", function($scope, $resource, $http, $sce)
     {
-   var posts = $http.get('/ages/getfortest');
+   var posts = $http.get('http://stark-anchorage-86169.herokuapp.com/ages/test');
     posts.then(function(result)
 {
   
