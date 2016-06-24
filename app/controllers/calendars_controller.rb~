@@ -1,13 +1,18 @@
 class CalendarsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Calendars", :calendars_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
- def new 
+ def new
+add_breadcrumb "Create", new_calendar_url  
  end
 
  def formula
+add_breadcrumb "Formula", calendars_formula_url 
  end
 
  def problems
+add_breadcrumb "Problem", calendars_problems_url 
 
    @posts = Calendar.paginate(:page => params[:page], :per_page => 2)
  end
@@ -34,6 +39,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  def edit
+add_breadcrumb "Edit", edit_calendar_url 
  @post = Calendar.find(params[:id])
  end
  

@@ -1,13 +1,18 @@
 class ChainrulesController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Chain Rules", :chainrules_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
- def new 
+ def new
+ add_breadcrumb "Create", new_chainrule_url 
  end
 
  def formula
+ add_breadcrumb "Formula", chainrules_formula_url
  end
 
  def problems
+ add_breadcrumb "problems", chainrules_problems_url
 
    @posts = Chainrule.paginate(:page => params[:page], :per_page => 2)
  end
@@ -34,6 +39,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  def edit
+ add_breadcrumb "Edit", edit_chainrule_url
  @post = Chainrule.find(params[:id])
  end
  

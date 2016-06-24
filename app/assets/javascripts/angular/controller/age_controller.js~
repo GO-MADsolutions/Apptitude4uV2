@@ -1,0 +1,25 @@
+var ageApp = angular.module('agesection',['ngRoute','ngResource']);
+
+ageApp.factory('Ages',['$resource',function($resource)
+{
+  return $resource('/ages.json',{},{
+query: {method: 'GET', isArray: true}})
+}]);
+
+
+ageApp.config([
+'$routeProvider', '$locationProvider', function($routeProvider, $locationProvider)
+{
+
+$routeProvider.when('/ages', {
+ templateUrl: '/test',
+ controller: "AgeController"
+});
+}]);
+
+ageApp.controller("AgeController", ['$scope', '$resource', 'Ages', 'Age', '$location', function($scope, $resource, Users, User, $location)
+{
+console.log("HELLO");
+$scope.ages = Ages.query();
+console.log($scope.ages);
+}]);

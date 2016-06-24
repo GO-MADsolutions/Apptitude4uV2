@@ -1,15 +1,20 @@
 class AreasController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Area", :areas_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
- def new 
+ def new
+ add_breadcrumb "Create", new_area_url 
  end
 
  def formula
+ add_breadcrumb "Formula", areas_formula_url
  end
 
  def problems
 
    @posts = Area.paginate(:page => params[:page], :per_page => 2)
+ add_breadcrumb "Area problems", areas_problems_url
  end
 
  
@@ -35,6 +40,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def edit
  @post = Area.find(params[:id])
+ add_breadcrumb "edit", edit_area_url
  end
  
  def update

@@ -1,3 +1,10 @@
+
+<div ng-app="demo">
+<div ng-view>
+
+<div ng-controller="democ">
+
+
 <h1> WELCOME TO APPTITUDE FOR YOU </h1>
 <%= render_breadcrumbs %>
 <br> <br>
@@ -40,3 +47,14 @@
 <li> <%= link_to "trains", trains_url %>
 </ol>
 </div>
+<%= render 'calculator'%>
+
+</div></div></div>
+
+
+<script>
+
+
+
+
+</script>

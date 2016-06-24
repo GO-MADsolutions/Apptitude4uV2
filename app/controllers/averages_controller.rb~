@@ -1,16 +1,21 @@
 class AveragesController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Average", :averages_url
 
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def new 
+ add_breadcrumb "Create", new_average_url
  end
 
- def formula
+ def formula 
+ add_breadcrumb "formula", averages_formula_url
  end
 
  def problems
+ @posts = Average.paginate(:page => params[:page], :per_page => 2)
+  add_breadcrumb "problems", averages_problems_url
 
-   @posts = Average.paginate(:page => params[:page], :per_page => 2)
  end
 
  
@@ -36,6 +41,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def edit
  @post = Average.find(params[:id])
+ add_breadcrumb "Edit", edit_average_url
  end
  
  def update

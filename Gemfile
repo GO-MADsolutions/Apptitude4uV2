@@ -5,7 +5,7 @@ source 'https://rubygems.org'
   gem 'rails', '4.2.6'
   gem 'spring'
   gem 'devise'
- 
+  
   gem 'bootstrap-sass' 
   gem 'autoprefixer-rails'
   gem 'formtastic-bootstrap'
@@ -14,7 +14,7 @@ source 'https://rubygems.org'
   gem 'will_paginate-bootstrap'
   gem "breadcrumbs_on_rails"
   gem 'tinymce-rails'
-
+  
   gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
 group :production do

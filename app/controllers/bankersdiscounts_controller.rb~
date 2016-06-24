@@ -1,13 +1,19 @@
 class BankersdiscountsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Bankers Discount", :bankersdiscounts_url
+
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
- def new 
+ def new
+add_breadcrumb "Create", new_bankersdiscount_url  
  end
 
  def formula
+add_breadcrumb "formula", bankersdiscounts_formula_url 
  end
 
  def problems
+add_breadcrumb "problem", bankersdiscounts_problems_url 
 
    @posts = Bankersdiscount.paginate(:page => params[:page], :per_page => 2)
  end
@@ -34,6 +40,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  def edit
+add_breadcrumb "Edit", edit_bankersdiscount_url 
  @post = Bankersdiscount.find(params[:id])
  end
  

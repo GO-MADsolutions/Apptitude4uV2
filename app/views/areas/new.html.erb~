@@ -1,7 +1,8 @@
-<h1> create a new age problem </h1>
+<h1> create a new Area problem </h1>
+<%= render_breadcrumbs %>
 
 
-<%= form_for :post, url: ages_path do |f| %>
+<%= form_for :post, url: areas_path do |f| %>
 <p>
 <%= f.label :question %> <br>
 <%= f.text_area :question, :class => "tinymce", :rows => 40, :cols => 40 %>

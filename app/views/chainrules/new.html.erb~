@@ -1,4 +1,5 @@
 <h1> create a new ChainRule problem </h1>
+<%= render_breadcrumbs %>
 
 
 <%= form_for :post, url: chainrules_path do |f| %>

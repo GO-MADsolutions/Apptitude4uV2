@@ -1,6 +1,7 @@
-
+<div ng-controller="demoprobs">
 
 <h1> Age Problems </h1>
+<%= render_breadcrumbs %>
 <%- page = params[:page].to_i %>
 <ol start = <%= page > 1 ? (((page-1) * 5) + 1) : 1 %>>
 
@@ -26,13 +27,13 @@
 <%= render 'disqus' %>
 </div>
 </div> 
-</li>
+
 <% if user_signed_in? %>
 <%= link_to "edit", edit_age_path(p) %>
 <%= link_to "Delete", age_path(p), method: :delete, data: {confirm: "Are you sure"} %>
 <% end %>
 <hr>
-
+<div>
 <% end %>
 
 </ol>

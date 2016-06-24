@@ -1,0 +1,64 @@
+var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
+// FOR AGES TEST
+demoApp.controller("tester", function($scope, $resource, $http, $sce)
+    {
+   var posts = $http.get('/ages/getfortest');
+    posts.then(function(result)
+{
+  
+  $scope.poster=result.data;
+  $scope.demo = result.data;
+  console.log($scope.demo);
+$scope.pro = [];
+
+$scope.pro.possibilities = [];
+
+$activequestion = 0;
+  for(i=0;i<$scope.demo.length;i++)
+{
+  $scope.pro.push({
+"question": $sce.trustAsHtml($scope.demo[i].question),
+
+"possibilities": [{
+"answer": $sce.trustAsHtml($scope.demo[i].optionA),
+"answer": $sce.trustAsHtml($scope.demo[i].optionB),
+"answer": $sce.trustAsHtml($scope.demo[i].optionC),
+"answer": $sce.trustAsHtml($scope.demo[i].optionD)
+}],
+ 
+
+"answer": $sce.trustAsHtml($scope.demo[i].answer),
+"solution": $sce.trustAsHtml($scope.demo[i].solution),
+"selected": null
+});
+
+}
+ 
+});
+    
+});
+
+// END OF AGES TEST
+
+
+demoApp.config(function($routeProvider){
+ $routeProvider
+  .when('/ages', {
+  templateUrl: 'app/views/ages/index.html.erb',
+  controller: "democ" })
+
+  .when('/ages/formula', {
+  templateUrl: 'app/views/ages/formula.html.erb',
+  controller: "democfor" })
+.when('/ages/test', {
+  templateUrl: 'app/views/ages/test.html.erb',
+  controller: "tester" })
+
+.when('/ages/problems', {
+  templateUrl: 'app/views/ages/problems.html.erb',
+  controller: "demoprobs" });
+
+
+});
+
+

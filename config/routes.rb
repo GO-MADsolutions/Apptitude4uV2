@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get 'static_pages/aboutus'
 get 'ages/problems'
 get 'ages/formula'
+get 'ages/test'
+get 'ages/getfortest'
   resources :'ages'
   get 'ages/new'
   resources :'static_pages'

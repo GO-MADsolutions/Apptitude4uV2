@@ -25,7 +25,7 @@ body .main{
  columns: 2;
  -webkit-columns: 2;
  -moz-columns: 2;
- margin: auto;
+
 
  overflow: hidden;
  
@@ -53,4 +53,26 @@ border-style: double;
 .authors .parent .author
 {
   float: left;
+}
+
+
+.answer 
+{
+
+ padding: 15px 20px;
+ border-radius: 10px;
+ border: 1px solid #bbb;
+ 
+}
+
+.answer:hover
+{
+ cursor: pointer;
+}
+
+.custombutton
+{
+ margin-right: 15px;
+ margin-top: 15px;
+ 
 }
