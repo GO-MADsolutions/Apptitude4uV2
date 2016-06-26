@@ -2,35 +2,35 @@ var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
 // FOR AGES TEST
 demoApp.controller("tester", function($scope, $resource, $http, $sce)
     {
- $scope.demogetpost = "DEMO";   
+// $scope.demogetpost = "DEMO";   
 // var
-
+     
      var getpost = getpost;
     
-    function getpost()
+    /*function getpost()
      { 
-        alert("BEFORE HELLO");
+       
          console.log("INSIDE GETPOST");
          $http.get('http://stark-anchorage-86169.herokuapp.com/ages/getfortest')
          .success(function(data, status, header)
                  {
-             alert("HELLO");
+             
              console.log("INSIDE RESPONSE "+ data);
              $scope.demogetpost = data;
              console.log( $scope.demogetpost);
              console.log("NOT PRINTING");
          })
          return $scope.demogetpost;
-     }
+     }*/
      
     
     
-    
-   var posts = $http.get('/ages/getfortest');
+   
+   var posts = $http.get('https://stark-anchorage-86169.herokuapp.com/ages/getfortest');
     posts.then(function(result)
 {
-   console.log($scope.demogetpost);      
-  console.log("DEMO POSTER" + getpost());
+  // console.log($scope.demogetpost);      
+ // console.log("DEMO POSTER" + getpost());
   $scope.poster=result.data;
   $scope.demo = result.data;
   

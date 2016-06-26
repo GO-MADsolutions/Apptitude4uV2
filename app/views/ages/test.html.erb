@@ -6,7 +6,8 @@
  <%= render_breadcrumbs %>
 <br>
 <hr>
-<div ng-controller="tester">
+
+<div ng-controller="tester" class="quizportion">
   <div ng-show="questionpart"> 
    <div class="row">
        <div class="col-xs-8">
@@ -168,4 +169,14 @@
   
  
 </div>
+
+<script>
+$(document).ready(function(){
+  if(window.location.href.indexOf('reload')== -1)
+{
+  window.location.replace(window.location.href+'?reload');
+}
+});
+
+</script>
 
