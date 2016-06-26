@@ -1,11 +1,38 @@
+(function()
+{
 var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
-// FOR AGES TEST
+
 demoApp.controller("tester", function($scope, $resource, $http, $sce)
     {
+
+     
+     var getpost = getpost;
+    
+    function getpost()
+     { 
+        alert("INSIDE GET POST");
+         console.log("INSIDE GETPOST");
+         $http.get('https://stark-anchorage-86169.herokuapp.com/ages/getfortest')
+         .success(function(data, status, header)
+                 {
+             alert("GOT POST");
+             console.log("INSIDE RESPONSE "+ data);
+             $scope.demogetpost = data;
+             console.log( $scope.demogetpost);
+             console.log("NOT PRINTING");
+         })
+         return $scope.demogetpost;
+     }
+     
+    
+    
+   
    var posts = $http.get('http://stark-anchorage-86169.herokuapp.com/ages/getfortest');
     posts.then(function(result)
 {
-  
+        alert("TRYING TO GET DATA");
+  // console.log($scope.demogetpost);      
+ console.log("DEMO POSTER" + getpost());
   $scope.poster=result.data;
   $scope.demo = result.data;
   
@@ -177,6 +204,9 @@ $scope.finaliseAnswer = finaliseAnswer;
 
 
 demoApp.config(function($routeProvider){
+   // $httpProvider.defaults.useXDomain = true;
+   //     delete $httpProvider.defaults.headers.common['X-Requested-With'];
+
  $routeProvider
   
 .when('/ages/test', {
@@ -189,5 +219,9 @@ demoApp.config(function($routeProvider){
 
 
 });
+
+
+})();
+
 
 

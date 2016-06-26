@@ -1,9 +1,10 @@
+(function()
+{
 var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
-// FOR AGES TEST
+
 demoApp.controller("tester", function($scope, $resource, $http, $sce)
     {
-// $scope.demogetpost = "DEMO";   
-// var
+
      
      var getpost = getpost;
     
@@ -218,5 +219,9 @@ demoApp.config(function($routeProvider){
 
 
 });
+
+
+})();
+
 
 
