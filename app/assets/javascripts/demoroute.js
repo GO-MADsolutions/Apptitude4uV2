@@ -29,6 +29,7 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce)
    var posts = $http.get('http://stark-anchorage-86169.herokuapp.com/ages/getfortest');
     posts.then(function(result)
 {
+        alert("TRYING TO GET DATA");
   // console.log($scope.demogetpost);      
  console.log("DEMO POSTER" + getpost());
   $scope.poster=result.data;

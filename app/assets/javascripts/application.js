@@ -14,13 +14,12 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require angular
+//= require angular-route
+//= require angular-sanitize
+
 //= require turbolinks
 //= require_tree .
 //= require tinymce
-//= require angular-route
-//= require angular-sanitize
-//= require angular-resource
-
 
 
 
