@@ -17,6 +17,7 @@ source 'https://rubygems.org'
   gem "breadcrumbs_on_rails"
   gem 'tinymce-rails'
   gem 'rack-cors', '0.3.0'
+  gem 'sprockets'
   gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
 group :production do

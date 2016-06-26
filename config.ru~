@@ -5,7 +5,7 @@ require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
 use Rack::Cors do
   allow do
-    origins 'localhost:3000', '127.0.0.1:3000', 'http://stark-anchorage-86169.herokuapp.com/ages/    getfortest', /\Ahttp:\/\/192\.168\.0\.\d{1,3}(:\d+)?\z/
+    origins 'localhost:3000', '127.0.0.1:3000', /\Ahttp:\/\/192\.168\.0\.\d{1,3}(:\d+)?\z/
             # regular expressions can be used here
 
     resource '/file/list_all/', :headers => 'x-domain-token'

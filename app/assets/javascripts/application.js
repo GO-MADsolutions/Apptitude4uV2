@@ -16,7 +16,7 @@
 //= require angular
 //= require angular-route
 //= require angular-sanitize
-
+//= require demoroute
 //= require turbolinks
 //= require_tree .
 //= require tinymce
