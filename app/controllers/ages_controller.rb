@@ -1,15 +1,43 @@
-class AgesController < ApplicationController
+class AgesController < BasControllerController
+
+skip_before_filter :verify_authenticity_token
+  before_filter :cors_preflight_check
+  after_filter :cors_set_access_control_headers
+  skip_before_filter :verify_authenticity_token
+  # For all responses in this controller, return the CORS access control headers.
+  def cors_set_access_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+        headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
+        headers['Access-Control-Max-Age'] = "1728000"
+  end
+
+  # If this is a preflight OPTIONS request, then short-circuit the
+  # request, return only the necessary headers and return an empty
+  # text/plain.
+
+  def cors_preflight_check
+        headers['Access-Control-Allow-Origin'] = '*'
+        headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
+        headers['Access-Control-Allow-Headers'] = 'X-Requested-With, X-Prototype-Version'
+        headers['Access-Control-Max-Age'] = '1728000'
+  end
+
+
+
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Age", :ages_url
-
-
-
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
+
+
+
+
 
  def new 
   add_breadcrumb "Create", new_age_url
  end
+ def demoreq
 
+ end
  def formula
  add_breadcrumb "formula", ages_formula_url
  end
@@ -22,6 +50,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test, 
 
  def getfortest
   render :json => Age.limit(5).order('RANDOM()')
+  
  end
 
 def test

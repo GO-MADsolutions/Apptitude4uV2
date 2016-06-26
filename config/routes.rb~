@@ -1,5 +1,21 @@
 Rails.application.routes.draw do
+
+ 
+  #namespace :api, :defaults => {:format => :json} do
+   # namespace :v1 do
+
+    #  controller :ages, path: '/ages/test' do
+     #   match 'post_action', via: [ :post, :options]
+     # end
+      
+    #end
+  #end
+  
+  get 'cors/preflight'
+
   devise_for :users
+
+
   get 'static_pages/header'
 
   get 'static_pages/footer'
@@ -13,8 +29,15 @@ get 'ages/problems'
 get 'ages/formula'
 get 'ages/test'
 get 'ages/getfortest'
-  resources :'ages'
-  get 'ages/new'
+get 'ages/demoreq'
+  
+#match 'ages', to: 'ages#getfortest', via: [:options]
+match '/', :to => proc {|env| [200, {'Content-Type' => 'text/plain'}, ["DEMO-->"]] },
+             :via => [:get, :post, :put, :delete, :options, :head, :patch]
+resources :'ages'
+get 'ages/new'
+match '/ages/test', :to => proc {|env| [200, {'Content-Type' => 'text/plain'}, ["DEMO-->"]] },
+             :via => [:get, :post, :put, :delete, :options, :head, :patch]
   resources :'static_pages'
   root 'static_pages#home'
 
@@ -143,9 +166,11 @@ get 'timeandworks/problems'
 get 'timeandworks/formula'
   resources :'timeandworks'
 #For train Related Problems
+
 get 'trains/problems'
 get 'trains/formula'
   resources :'trains'
- 
+
+  
 
 end
