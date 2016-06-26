@@ -34,16 +34,16 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce)
     
     function getpost()
      { 
-        alert("INSIDE GET POST");
-         console.log("INSIDE GETPOST");
+       // alert("INSIDE GET POST");
+        // console.log("INSIDE GETPOST");
          $http.get('https://stark-anchorage-86169.herokuapp.com/ages/getfortest')
          .success(function(data, status, header)
                  {
              alert("GOT POST");
-             console.log("INSIDE RESPONSE "+ data);
+          //   console.log("INSIDE RESPONSE "+ data);
              $scope.demogetpost = data;
-             console.log( $scope.demogetpost);
-             console.log("NOT PRINTING");
+           //  console.log( $scope.demogetpost);
+          //   console.log("NOT PRINTING");
          })
          return $scope.demogetpost;
      }
@@ -51,7 +51,7 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce)
     
     
    
-   var posts = $http.get('http://stark-anchorage-86169.herokuapp.com/ages/getfortest');
+   var posts = $http.get('/ages/getfortest');
     posts.then(function(result)
 {
         alert("TRYING TO GET DATA");
