@@ -95,7 +95,7 @@ $scope.finaliseAnswer = finaliseAnswer;
         //Defining selectAnswer
         function selectAnswer(index,activequestion)
         {
-            $scope.pro[activequestion].selected = index;
+            $scope.pro[$scope.activequestion].selected = index;
             
         }
         
@@ -104,7 +104,7 @@ $scope.finaliseAnswer = finaliseAnswer;
         function setActiveQuestion(index){
             if(index === undefined)
                 {
-                    var breakOut = false;
+            var breakOut = false;
             var quizLength = $scope.pro.length-1;
            
             while(!breakOut)
