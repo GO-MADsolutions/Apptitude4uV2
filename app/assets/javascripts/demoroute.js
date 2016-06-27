@@ -2,10 +2,12 @@
 {
 var demoApp = angular.module("demo", ['ngRoute', 'ngResource', 'ngSanitize']);
 
-demoApp.controller("tester", function($scope, $resource, $http, $sce)
+demoApp.controller("tester", function($scope, $resource, $http, $sce, $rootScope, $location)
     {
-
-     
+   
+    $rootScope.location = $location.absUrl();
+    var url = $rootScope.location.slice(0,-11).concat("getfortest");
+    // alert(url);
      var getpost = getpost;
     
     
@@ -13,7 +15,7 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce)
     
     
    
-   var posts = $http.get('/ages/getfortest');
+   var posts = $http.get(url);
     posts.then(function(result)
 {
       
