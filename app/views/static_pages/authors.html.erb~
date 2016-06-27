@@ -31,7 +31,7 @@
 <tr>
       
       <td><%= image_tag("swathi.jpg", size: "150x150", class: "img-circle") %></td>
-      <td><a href="">Swathi </a> has been doing his CSE B.E in S.S.N Engineering College </td>
+      <td><a href="https://www.facebook.com/swathi.nagarajan.1?fref=ts" target="_blank">Swathi </a> has been doing his CSE B.E in S.S.N Engineering College </td>
       
     </tr>
   </tbody>
