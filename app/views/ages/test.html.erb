@@ -1,4 +1,19 @@
-
+<div class="modal fade " id="pleaseWaitDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h1>Please wait while the Questions are being loaded...</h1>
+      </div>
+      <div class="modal-body">
+        <div class="progress">
+          <div class="meter progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+            <span class="sr-only">40% Complete (success)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <h1> TAKE TEST ON AGES </h1>
       
@@ -124,14 +139,14 @@
                               <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answera"
                                   ng-class="{'btn-success':pro[activequestion].correctoption === 1, 'btn-danger':pro[activequestion].selectedoption === 1}">
                                   
-                                   DEMO TYPER {{pro[activequestion].possibilities[activequestion].answera}}</h4>
+                                   {{pro[activequestion].possibilities[activequestion].answera}}</h4>
                             </div>
                         <div class="col-sm-6">
                              
                              
                               <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerb"
                                   ng-class="{'btn-success':pro[activequestion].correctoption === 2, 'btn-danger':pro[activequestion].selectedoption === 2}">
-                                  <span class="glyphicon" ng-class="{'glyphicon-ok':pro[activequestion].correctoption === 2, 'glyphicon-remove':pro[activequestion].selectedoption === 2}"></span>
+                                  
                                   {{pro[activequestion].possibilities[activequestion].answerb}}</h4>
                             </div>
                         <div class="col-sm-6">
@@ -139,7 +154,7 @@
                              
                               <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerc"
                                   ng-class="{'btn-success':pro[activequestion].correctoption === 3, 'btn-danger':pro[activequestion].selectedoption === 3}">
-                                  <span class="glyphicon" ng-class="{'glyphicon-ok':pro[activequestion].correctoption === 3, 'glyphicon-remove':pro[activequestion].selectedoption === 3}"></span>
+                                  
                                       {{pro[activequestion].possibilities[activequestion].answerc}}</h4>
                             </div>
                         <div class="col-sm-6">
@@ -147,15 +162,15 @@
                             
                               <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerd"
                                    ng-class="{'btn-success':pro[activequestion].correctoption === 4, 'btn-danger':pro[activequestion].selectedoption === 4}">
-                                  <span class="glyphicon" ng-class="{'glyphicon-ok':pro[activequestion].correctoption === 2, 'glyphicon-remove':pro[activequestion].selectedoption === 2}"></span>
+                                  
                                       {{pro[activequestion].possibilities[activequestion].answerd}}</h4>
                             </div>
                         
                     </div>
                     
-                    <div>
-                      <h1> Your score is {{score}} / 5</h1>
-                        <h1> Percentage is {{(score / 5)*100}} %</h1>
+                    <div class="democlass jumbotron">
+                      <h2> Your score is {{score}} / 5</h2>
+                        <h2> Percentage is {{(score / 5)*100}} %</h2>
                     </div>
                 </div>
             </div>
@@ -172,10 +187,28 @@
 
 <script>
 $(document).ready(function(){
+
+ var pleaseWait = $('#pleaseWaitDialog');
+
+    
   if(window.location.href.indexOf('reload')== -1)
 {
+    $('.quizportion').hide();
+    showPleaseWait = function () {
+        pleaseWait.modal('show');
+    };
+
+    
+
+    showPleaseWait();
   window.location.replace(window.location.href+'?reload');
-}
+}else
+    {
+        hidePleaseWait = function () {
+        pleaseWait.modal('hide');
+    };
+    }
+    
 });
 
 </script>
