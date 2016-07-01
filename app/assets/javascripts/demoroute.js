@@ -6,6 +6,7 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce, $rootScope
     {
    
     $rootScope.location = $location.absUrl();
+    alert( $rootScope.location);
     var url = $rootScope.location.slice(0,-11).concat("getfortest");
     // alert(url);
      var getpost = getpost;

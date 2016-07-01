@@ -127,7 +127,7 @@
       <div class="row">
         
         
-        <h3><span class="glyphicon glyphicon-remove"></span>Question:</h3>
+        <h3><span class="glyphicon glyphicon-info-sign"></span>Result:</h3>
         <div class="well well-sm">
             <div class="row">
                 <div class="col-xs-12">
@@ -168,12 +168,21 @@
                         
                     </div>
                     
-                    <div class="democlass jumbotron">
-                      <h2> Your score is {{score}} / 5</h2>
-                        <h2> Percentage is {{(score / 5)*100}} %</h2>
+                    <div class="democlass notebook pull-right">
+                      <h2> Your score is </h2>
+                        <div class="marks">
+                             <h2>{{(score / 5)*100}} </h2>
+                               <hr style="background-color:red">
+                                  <h2> 100</h2>
+                        </div>
+                        <br>
+                        <div class="ratings">
+                            <div class="empty-stars"></div>
+                                <div class="full-stars" style="width: {{(score / 5)*100}}%"></div>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
         
             
         

@@ -2,6 +2,8 @@
 
 <h1> Age Problems </h1>
 <%= render_breadcrumbs %>
+    
+<div class="border">
 <%- page = params[:page].to_i %>
 <ol start = <%= page > 1 ? (((page-1) * 5) + 1) : 1 %>>
 
@@ -37,7 +39,11 @@
 <% end %>
 
 </ol>
+</div>
+<div class="paginate">
 <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+
+</div>
 
 <script type="text/javascript">
 
@@ -49,13 +55,13 @@ $(".hidesol").children('button').click(function()
  if($(this).text().trim() == "Hide Solution")
 {
  $(this).html("Show Solution");
-$(this).siblings(".solution").hide();
+$(this).siblings(".solution").slideUp();
 }
 
 else if($(this).text().trim() == "Show Solution")
 {
  $(this).html("Hide Solution");
-$(this).siblings(".solution").show();
+$(this).siblings(".solution").slideDown();
 }
  /* var r = $(this).text();
   alert($(this).text()) */
