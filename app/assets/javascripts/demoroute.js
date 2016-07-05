@@ -6,7 +6,7 @@ demoApp.controller("tester", function($scope, $resource, $http, $sce, $rootScope
     {
    
     $rootScope.location = $location.absUrl();
-    alert( $rootScope.location);
+    
     var url = $rootScope.location.slice(0,-11).concat("getfortest");
     // alert(url);
      var getpost = getpost;
@@ -199,6 +199,103 @@ demoApp.config(function($routeProvider){
 .when('/ages/test', {
   templateUrl: 'app/views/ages/test.html.erb',
   controller: "tester" })
+ .when('/areas/test', {
+  templateUrl: 'app/views/areas/test.html.erb',
+  controller: "tester" })
+.when('/averages/test', {
+  templateUrl: 'app/views/averages/test.html.erb',
+  controller: "tester" })
+.when('/bankersdiscounts/test', {
+  templateUrl: 'app/views/bankersdiscount/test.html.erb',
+  controller: "tester" })
+.when('/boatsandstreams/test', {
+  templateUrl: 'app/views/boatsandstreams/test.html.erb',
+  controller: "tester" })
+.when('/calendars/test', {
+  templateUrl: 'app/views/calendars/test.html.erb',
+  controller: "tester" })
+.when('/chainrules/test', {
+  templateUrl: 'app/views/chainrules/test.html.erb',
+  controller: "tester" })
+.when('/clocks/test', {
+  templateUrl: 'app/views/clocks/test.html.erb',
+  controller: "tester" })
+.when('/compoundinterests/test', {
+  templateUrl: 'app/views/compoundinterests/test.html.erb',
+  controller: "tester" })
+.when('/cors/test', {
+  templateUrl: 'app/views/cors/test.html.erb',
+  controller: "tester" })
+.when('/decimalfractions/test', {
+  templateUrl: 'app/views/decimalfractions/test.html.erb',
+  controller: "tester" })
+.when('/hcfandlcms/test', {
+  templateUrl: 'app/views/hcfandlcms/test.html.erb',
+  controller: "tester" })
+.when('/heightanddistances/test', {
+  templateUrl: 'app/views/heightanddistances/test.html.erb',
+  controller: "tester" })
+.when('/logarithms/test', {
+  templateUrl: 'app/views/logarithms/test.html.erb',
+  controller: "tester" })
+.when('/mixtureandalligation/test', {
+  templateUrl: 'app/views/mixtureandalligation/test.html.erb',
+  controller: "tester" })
+.when('/numbers/test', {
+  templateUrl: 'app/views/numbers/test.html.erb',
+  controller: "tester" })
+.when('/partnerships/test', {
+  templateUrl: 'app/views/partnerships/test.html.erb',
+  controller: "tester" })
+.when('/percentages/test', {
+  templateUrl: 'app/views/percentages/test.html.erb',
+  controller: "tester" })
+.when('/permutationandcombinations/test', {
+  templateUrl: 'app/views/permutationandcombinations/test.html.erb',
+  controller: "tester" })
+.when('/pipesandcisterns/test', {
+  templateUrl: 'app/views/pipesandcisterns/test.html.erb',
+  controller: "tester" })
+.when('/probabilitys/test', {
+  templateUrl: 'app/views/probabilitys/test.html.erb',
+  controller: "tester" })
+.when('/profitandloss/test', {
+  templateUrl: 'app/views/profitandloss/test.html.erb',
+  controller: "tester" })
+.when('/racesandgames/test', {
+  templateUrl: 'app/views/racesandgames/test.html.erb',
+  controller: "tester" })
+.when('/seriesfindmissingnumbers/test', {
+  templateUrl: 'app/views/seriesfindmissingnumbers/test.html.erb',
+  controller: "tester" })
+.when('/seriesoddmanouts/test', {
+  templateUrl: 'app/views/seriesoddmanouts/test.html.erb',
+  controller: "tester" })
+.when('/simpleinterests/test', {
+  templateUrl: 'app/views/simpleinterests/test.html.erb',
+  controller: "tester" })
+.when('/simplifications/test', {
+  templateUrl: 'app/views/simplifications/test.html.erb',
+  controller: "tester" })
+.when('/squareandcuberoots/test', {
+  templateUrl: 'app/views/squareandcuberoots/test.html.erb',
+  controller: "tester" })
+.when('/stocksandshares/test', {
+  templateUrl: 'app/views/stocksandshares/test.html.erb',
+  controller: "tester" })
+.when('/surdsandindices/test', {
+  templateUrl: 'app/views/surdsandindices/test.html.erb',
+  controller: "tester" })
+.when('/timeanddistances/test', {
+  templateUrl: 'app/views/timeanddistances/test.html.erb',
+  controller: "tester" })
+.when('/timeandworks/test', {
+  templateUrl: 'app/views/timeandworks/test.html.erb',
+  controller: "tester" })
+.when('/trains/test', {
+  templateUrl: 'app/views/trains/test.html.erb',
+  controller: "tester" })
+
 
 .when('/ages/problems', {
   templateUrl: 'app/views/ages/problems.html.erb',

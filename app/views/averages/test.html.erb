@@ -1,0 +1,224 @@
+<div class="modal fade " id="pleaseWaitDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h1>Please wait while the Questions are being loaded...</h1>
+      </div>
+      <div class="modal-body">
+        <div class="progress">
+          <div class="meter progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+            <span class="sr-only">40% Complete (success)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <h1> TAKE TEST ON AVERAGES </h1>
+      
+     
+ <%= render_breadcrumbs %>
+<br>
+<hr>
+
+<div ng-controller="tester" class="quizportion">
+  <div ng-show="questionpart"> 
+   <div class="row">
+       <div class="col-xs-8">
+            <div class="btn-toolbar">
+           <button class="btn"
+                   ng-repeat="x in pro"
+                   ng-class="{'btn-info': x.selected!==null, 'btn-danger': x.selected ===null}"
+                   ng-click="setActiveQuestion($index)"> 
+                    <span class="glyphicon"
+                          ng-class="{'glyphicon-pencil': x.selected!==null, 'glyphicon-question-sign': 					x.selected===null}"></span>
+                   
+           </button> <br><br>
+                <span class="btn btn-success glyphicon glyphicon-hand-up custombutton"></span><h4>  Click the buttons to navigate the desired questions</h4>
+           </div>
+       </div>
+       <div class="col-xs-4">
+           
+             <button class="btn btn-info"> <span class="glyphicon glyphicon-pencil"></span></button>      ANSWERED<br><br>
+           <button class="btn btn-danger"> <span class="glyphicon glyphicon-question-sign"></span></button>     NOT ANSWERED
+           
+       </div>
+   </div>
+   
+  <hr>
+    <div class="row">
+        
+        <div class="alert alert-danger"
+             ng-show="error">
+         Error ! You have not answered all the question.... 
+            <button class="close" ng-click="error = false">&times</button>
+        </div>
+        <h3>Question:</h3>
+        <div class="well well-sm" ng-hide="finalise">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><span>{{activequestion + 1 +". "}}</span> <span ng-bind-html="pro[activequestion].question">{{pro[activequestion].question}}</span> </h4>
+                    <div class="row">
+                       
+                            <div class="col-sm-6"
+                                 ng-click="selectAnswer(1,activequestion)"
+                                 >
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answera"
+                                  ng-class="{'btn-info':pro[activequestion].selected === 1 }">{{pro[activequestion].possibilities[activequestion].answera}}</h4>
+                            </div>
+                        <div class="col-sm-6"
+                             ng-click="selectAnswer(2,activequestion)"
+                             >
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerb"
+                                  ng-class="{'btn-info':pro[activequestion].selected === 2 }">{{pro[activequestion].possibilities[activequestion].answerb}}</h4>
+                            </div>
+                        <div class="col-sm-6"
+                             ng-click="selectAnswer(3,activequestion)"
+                             >
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerc"
+                                  ng-class="{'btn-info':pro[activequestion].selected === 3 }">{{pro[activequestion].possibilities[activequestion].answerc}}</h4>
+                            </div>
+                        <div class="col-sm-6"
+                             ng-click="selectAnswer(4,activequestion)"
+                            >
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerd"
+                                   ng-class="{'btn-info':pro[activequestion].selected === 4 }">{{pro[activequestion].possibilities[activequestion].answerd}}</h4>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-warning" ng-click="questionAnswered()">Continue</button>
+            
+        </div>
+           <div class="well well-sm"
+                 ng-show="finalise">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3>Are you sure you want to submit ?</h3>
+                        <button class="btn btn-success" ng-click="finaliseAnswer()"> YES</button>
+                        <button class="btn btn-danger" ng-click="finalise = false"> NO</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+     <!-- SHOWING RESULTS AFTER QUIZ -->
+    
+    
+    <div class="answerpart">
+        <div ng-show="showCorrected">
+         <div class="row">
+       <div class="col-xs-8">
+            <div class="btn-toolbar">
+           <button class="btn"
+                   ng-repeat="x in pro"
+                   ng-class="{'btn-success': x.correct === 'correct', 'btn-danger': x.correct === 'wrong'}"
+                   ng-click="setActiveQuestion($index)"> 
+                    <span class="glyphicon"
+                          ng-class="{'glyphicon-ok': x.correct=== 'correct', 'glyphicon-remove': 					x.correct === 'wrong'}"></span>
+                   
+           </button>
+           </div>
+       </div>
+   </div>
+            <hr>
+      <div class="row">
+        
+        
+        <h3><span class="glyphicon glyphicon-info-sign"></span>Result:</h3>
+        <div class="well well-sm">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h4><span>{{activequestion + 1 +". "}}</span> <span ng-bind-html="pro[activequestion].question">{{pro[activequestion].question}}</span> </h4>
+                    <div class="row">
+                       
+                            <div class="col-sm-6">
+                        
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answera"
+                                  ng-class="{'btn-success':pro[activequestion].correctoption === 1, 'btn-danger':pro[activequestion].selectedoption === 1}">
+                                  
+                                   {{pro[activequestion].possibilities[activequestion].answera}}</h4>
+                            </div>
+                        <div class="col-sm-6">
+                             
+                             
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerb"
+                                  ng-class="{'btn-success':pro[activequestion].correctoption === 2, 'btn-danger':pro[activequestion].selectedoption === 2}">
+                                  
+                                  {{pro[activequestion].possibilities[activequestion].answerb}}</h4>
+                            </div>
+                        <div class="col-sm-6">
+                             
+                             
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerc"
+                                  ng-class="{'btn-success':pro[activequestion].correctoption === 3, 'btn-danger':pro[activequestion].selectedoption === 3}">
+                                  
+                                      {{pro[activequestion].possibilities[activequestion].answerc}}</h4>
+                            </div>
+                        <div class="col-sm-6">
+                             
+                            
+                              <h4 class="answer" ng-bind-html="pro[activequestion].possibilities[activequestion].answerd"
+                                   ng-class="{'btn-success':pro[activequestion].correctoption === 4, 'btn-danger':pro[activequestion].selectedoption === 4}">
+                                  
+                                      {{pro[activequestion].possibilities[activequestion].answerd}}</h4>
+                            </div>
+                        
+                    </div>
+                    
+                    <div class="democlass notebook pull-right">
+                      <h2> Your score is </h2>
+                        <div class="marks">
+                             <h2>{{(score / 5)*100}} </h2>
+                               <hr style="background-color:red">
+                                  <h2> 100</h2>
+                        </div>
+                        <br>
+                        <div class="ratings">
+                            <div class="empty-stars"></div>
+                                <div class="full-stars" style="width: {{(score / 5)*100}}%"></div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+        
+            
+        
+    </div>
+        
+      </div>
+        </div>
+  
+ 
+</div>
+
+<script>
+$(document).ready(function(){
+
+ var pleaseWait = $('#pleaseWaitDialog');
+
+    
+  if(window.location.href.indexOf('reload')== -1)
+{
+    $('.quizportion').hide();
+    showPleaseWait = function () {
+        pleaseWait.modal('show');
+    };
+
+    
+
+    showPleaseWait();
+  window.location.replace(window.location.href+'?reload');
+}else
+    {
+        hidePleaseWait = function () {
+        pleaseWait.modal('hide');
+    };
+    }
+    
+});
+
+</script>
+

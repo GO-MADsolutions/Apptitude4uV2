@@ -1,5 +1,5 @@
 class StocksandsharesController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
  end
@@ -9,13 +9,23 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  def problems
 
-   @posts = Age.paginate(:page => params[:page], :per_page => 2)
+   @posts = Stocksandshare.paginate(:page => params[:page], :per_page => 2)
  end
 
  
 
- def test
+  def getfortest
+  render :json => Stocksandshare.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Stocks And Share Test", stocksandshares_test_url
+ 
+
+end
+ 
  
  def show
  @post = Age.find(params[:id])

@@ -2,7 +2,7 @@ class BankersdiscountsController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Bankers Discount", :bankersdiscounts_url
 
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new
 add_breadcrumb "Create", new_bankersdiscount_url  
@@ -20,9 +20,17 @@ add_breadcrumb "problem", bankersdiscounts_problems_url
 
  
 
- def test
+  def getfortest
+  render :json => Bankersdiscount.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Bankers Discount Test", bankersdicounts_test_url
  
+
+end
  def show
  @post = Bankersdiscount.find(params[:id])
  end

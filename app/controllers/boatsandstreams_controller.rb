@@ -2,7 +2,7 @@ class BoatsandstreamsController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Boats and Streams", :boatsandstreams_url
 
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
 add_breadcrumb "Create", new_boatsandstream_url  
@@ -20,9 +20,17 @@ add_breadcrumb "Problem", boatsandstreams_problems_url
 
  
 
- def test
+ def getfortest
+  render :json => Boatsandstream.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Boats And Stream Test", boatsandstreams_test_url
  
+
+end
  def show
  @post = Boatsandstream.find(params[:id])
  end

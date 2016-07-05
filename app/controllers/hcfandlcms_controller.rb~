@@ -14,8 +14,17 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  
 
- def test
+  def getfortest
+  render :json => Hcfandlcm.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Hcf And Lcm Test", hcfandlcms_test_url
+ 
+
+end
  
  def show
  @post = Hcfandlcm.find(params[:id])

@@ -1,7 +1,7 @@
 class ChainrulesController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Chain Rules", :chainrules_url
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new
  add_breadcrumb "Create", new_chainrule_url 
@@ -19,8 +19,17 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  
 
- def test
+  def getfortest
+  render :json => Chainrule.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Chainrule Test", chainrules_test_url
+ 
+
+end
  
  def show
  @post = Chainrule.find(params[:id])

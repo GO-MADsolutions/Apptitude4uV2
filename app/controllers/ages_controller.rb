@@ -56,7 +56,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test, 
 def test
 
 add_breadcrumb "Age Test", ages_test_url
- #redirect_to :back
+ 
 
 end
  

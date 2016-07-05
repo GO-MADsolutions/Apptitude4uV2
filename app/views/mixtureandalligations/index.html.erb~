@@ -7,4 +7,5 @@
 <% end %>
 <li><%= link_to "Show Formula", mixtureandalligations_formula_url %></li>
 <li><%= link_to "Show Problem", mixtureandalligations_problems_url %></li>
+<li><%= link_to "Take Test", mixtureandalligations_test_url %></li>
 <ol>

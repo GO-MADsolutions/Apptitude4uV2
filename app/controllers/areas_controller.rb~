@@ -18,8 +18,11 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  
-
+ def getfortest
+  render :json => Area.limit(5).order('RANDOM()')
+ end
  def test
+add_breadcrumb "Area Test", areas_test_url
  end
  
  def show

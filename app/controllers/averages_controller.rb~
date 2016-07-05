@@ -2,7 +2,7 @@ class AveragesController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Average", :averages_url
 
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
  add_breadcrumb "Create", new_average_url
@@ -19,8 +19,11 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  
-
+ def getfortest
+  render :json => Average.limit(5).order('RANDOM()')
+ end
  def test
+add_breadcrumb "Average Test", averages_test_url
  end
  
  def show

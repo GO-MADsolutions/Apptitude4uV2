@@ -1,5 +1,5 @@
 class ProfitandlossController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
  end
@@ -14,8 +14,17 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  
 
- def test
+  def getfortest
+  render :json => Profitandloss.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Profit And Loss Test", profitandloss_test_url
+ 
+
+end
  
  def show
  @post =  Profitandloss.find(params[:id])

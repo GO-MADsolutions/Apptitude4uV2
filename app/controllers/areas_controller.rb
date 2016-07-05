@@ -1,7 +1,7 @@
 class AreasController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Area", :areas_url
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new
  add_breadcrumb "Create", new_area_url 
@@ -18,8 +18,11 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
  end
 
  
-
+ def getfortest
+  render :json => Area.limit(5).order('RANDOM()')
+ end
  def test
+add_breadcrumb "Area Test", areas_test_url
  end
  
  def show

@@ -20,9 +20,17 @@ add_breadcrumb "problem", bankersdiscounts_problems_url
 
  
 
- def test
+  def getfortest
+  render :json => Bankersdiscount.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Bankers Discount Test", bankersdicounts_test_url
  
+
+end
  def show
  @post = Bankersdiscount.find(params[:id])
  end

@@ -1,7 +1,7 @@
 class CalendarsController < ApplicationController
 add_breadcrumb "Home", :static_pages_home_url
 add_breadcrumb "Calendars", :calendars_url
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new
 add_breadcrumb "Create", new_calendar_url  
@@ -19,8 +19,17 @@ add_breadcrumb "Problem", calendars_problems_url
 
  
 
- def test
+  def getfortest
+  render :json => Calendar.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Calendar Test", calendars_test_url
+ 
+
+end
  
  def show
  @post = Calendar.find(params[:id])

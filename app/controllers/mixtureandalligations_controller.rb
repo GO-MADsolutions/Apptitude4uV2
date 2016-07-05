@@ -1,5 +1,5 @@
 class MixtureandalligationsController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
  end
@@ -14,9 +14,17 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  
 
- def test
+  def getfortest
+  render :json => Mixtureandalligation.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Mixture And Alligation Test", mixtureandalligations_test_url
  
+
+end
  def show
  @post = Mixtureandalligation.find(params[:id])
  end

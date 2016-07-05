@@ -1,5 +1,5 @@
 class DecimalfractionsController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
  end
@@ -14,8 +14,17 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
  
 
- def test
+  def getfortest
+  render :json => Decimalfraction.limit(5).order('RANDOM()')
+  
  end
+
+def test
+
+add_breadcrumb "Decimal Fraction Test", decimalfractions_test_url
+ 
+
+end
  
  def show
  @post = Decimalfraction.find(params[:id])
