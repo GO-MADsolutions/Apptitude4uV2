@@ -7,6 +7,7 @@ source 'https://rubygems.org'
   gem 'devise'
   
   gem 'bootstrap-sass' 
+  gem 'tzinfo-data'
   gem 'rails-api'
   gem 'active_model_serializers', '~> 0.10.0'
   gem 'autoprefixer-rails'
