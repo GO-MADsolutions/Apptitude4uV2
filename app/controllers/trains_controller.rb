@@ -9,32 +9,32 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test, 
 
  def problems
 
-   @posts = Train.paginate(:page => params[:page], :per_page => 2)
+   @posts = Timeandwork.paginate(:page => params[:page], :per_page => 2)
  end
 
  
 
- ef getfortest
-  render :json => Train.limit(5).order('RANDOM()')
+def getfortest
+  render :json => Timeandwork.limit(5).order('RANDOM()')
   
  end
 
 def test
 
-add_breadcrumb "Train", trains_test_url
+add_breadcrumb "Time And Work", timeandworks_test_url
  
 
 end
  
  def show
- @post = Age.find(params[:id])
+ @post = Timeandwork.find(params[:id])
  end
 
  def index
  end
 
  def create
- @post = Age.new(post_params)
+ @post = Timeandwork.new(post_params)
  if@post.save
    redirect_to @post
  else
@@ -43,12 +43,12 @@ end
  end
 
  def edit
- @post = Age.find(params[:id])
+ @post = Timeandwork.find(params[:id])
  end
  
  def update
- @post = Age.find(params[:id])
- if @post.update(params[:age].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
+ @post = Timeandwork.find(params[:id])
+ if @post.update(params[:timeandwork].permit(:question, :solution, :optionA, :optionB, :optionC, :optionD, :answer))
  redirect_to @post
  else 
   render 'edit'
@@ -57,7 +57,7 @@ end
 
 
  def destroy
- @post = Age.find(params[:id]) 
+ @post = Timeandwork.find(params[:id]) 
  @post.destroy
  render 'index'
  end
