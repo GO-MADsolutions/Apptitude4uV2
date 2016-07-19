@@ -1,6 +1,6 @@
 <h1> create a new Series Finding Missing Number problem </h1>
 
-
+<%= render_breadcrumbs %>
 <%= form_for :post, url: seriesfindmissingnumbers_path do |f| %>
 <p>
 <%= f.label :question %> <br>

@@ -1,14 +1,18 @@
 class SimplificationsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Simplification", :simplifications_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_simplification_url
  end
 
  def formula
+add_breadcrumb "Formula", simplifications_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", simplifications_problems_url
    @posts = Simplification.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -42,6 +46,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_simplification_url
  @post = Simplification.find(params[:id])
  end
  

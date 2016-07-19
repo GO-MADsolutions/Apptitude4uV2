@@ -1,14 +1,18 @@
 class TimeanddistancesController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Time And Distance", :timeanddistances_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_timeanddistance_url
  end
 
  def formula
+add_breadcrumb "Formula", timeanddistances_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", timeanddistances_problems_url
    @posts = Timeanddistance.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_timeanddistance_url
  @post = Timeanddistance.find(params[:id])
  end
  

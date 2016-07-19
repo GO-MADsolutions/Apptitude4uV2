@@ -1,14 +1,18 @@
 class MixtureandalligationsController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Mixture And Alligations", :mixtureandalligations_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "Create", new_mixtureandalligation_url
  end
 
  def formula
+add_breadcrumb "formula", mixtureandalligations_formula_url
  end
 
  def problems
-
+add_breadcrumb "Problems", mixtureandalligations_problems_url
    @posts = Mixtureandalligation.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -42,6 +46,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_mixtureandalligation_url
  @post = Mixtureandalligation.find(params[:id])
  end
  

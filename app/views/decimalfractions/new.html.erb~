@@ -1,5 +1,5 @@
 <h1> create a new Decimalfraction problem </h1>
-
+<%= render_breadcrumbs %>
 
 <%= form_for :post, url: decimalfractions_path do |f| %>
 <p>

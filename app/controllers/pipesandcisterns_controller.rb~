@@ -1,14 +1,18 @@
 class PipesandcisternsController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Pipes And Cisterns", :pipesandcisterns_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_pipesandcistern_url
  end
 
  def formula
+add_breadcrumb "formula", pipesandcisterns_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", pipesandcisterns_problems_url
    @posts = Pipesandcistern.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_pipesandcistern_url
  @post = Pipesandcistern.find(params[:id])
  end
  

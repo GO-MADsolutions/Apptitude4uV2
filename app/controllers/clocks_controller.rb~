@@ -1,14 +1,20 @@
 class ClocksController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Clocks", :clocks_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "Create", new_clock_url
  end
 
  def formula
+add_breadcrumb "formula", clocks_formula_url
+
  end
 
  def problems
 
+add_breadcrumb "problem", clocks_problems_url
    @posts = Clock.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -20,7 +26,7 @@ before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
 
 def test
 
-add_breadcrumb "Clock Test", clocks_test_url
+add_breadcrumb "test", clocks_test_url
  
 
 end
@@ -42,6 +48,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_clock_url
  @post = Clock.find(params[:id])
  end
  

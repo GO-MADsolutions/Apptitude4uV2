@@ -1,14 +1,18 @@
 class SeriesfindmissingnumbersController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Series Find Missing Numbers", :seriesfindmissingnumbers_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "Create", new_seriesfindmissingnumber_url
  end
 
  def formula
+add_breadcrumb "Formula", seriesfindmissingnumbers_formula_url
  end
 
  def problems
-
+add_breadcrumb "problem", seriesfindmissingnumbers_problems_url
    @posts = Seriesfindmissingnumber.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_seriesfindmissingnumber_url
  @post = Seriesfindmissingnumber.find(params[:id])
  end
  

@@ -1,14 +1,18 @@
 class PermutationandcombinationsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Permutation And Combinations ", :permutationandcombinations_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_permutationandcombination_url
  end
 
  def formula
+add_breadcrumb "formula", permutationandcombinations_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", permutationandcombinations_problems_url
    @posts = Permutationandcombination.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_permutationandcombination_url
  @post = Permutationandcombination.find(params[:id])
  end
  

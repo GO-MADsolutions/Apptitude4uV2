@@ -1,14 +1,18 @@
 class RacesandgamesController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Races And Games", :racesandgames_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
- def new 
+ def new
+add_breadcrumb "create", new_racesandgame_url 
  end
 
  def formula
+add_breadcrumb "formula", racesandgames_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", racesandgames_problems_url
    @posts = Racesandgame.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_racesandgame_url
  @post = Racesandgame.find(params[:id])
  end
  

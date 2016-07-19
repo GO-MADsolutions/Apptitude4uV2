@@ -1,14 +1,18 @@
 class DecimalfractionsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Decimal Fraction", :decimalfractions_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
- def new 
+ def new
+add_breadcrumb "Create", new_decimalfraction_url 
  end
 
  def formula
+add_breadcrumb "formula", decimalfractions_formula_url
  end
 
  def problems
-
+add_breadcrumb "Problems", decimalfractions_problem_url
    @posts = Decimalfraction.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_decimalfraction_url
  @post = Decimalfraction.find(params[:id])
  end
  

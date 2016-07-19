@@ -1,14 +1,18 @@
 class TrainsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Train", :trains_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_train_url
  end
 
  def formula
+add_breadcrumb "Formula", trains_formula_url
  end
 
  def problems
-
+add_breadcrumb "Problem", trains_problems_url
    @posts = Timeandwork.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_train_url
  @post = Timeandwork.find(params[:id])
  end
  

@@ -1,14 +1,18 @@
 class ProbabilitysController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Probabilitys", :probabilitys_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_probabilitys_url
  end
 
  def formula
+add_breadcrumb "formula", probabilitys_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", probabilitys_problems_url
    @posts = Probability.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_probability_url
  @post = Probability.find(params[:id])
  end
  

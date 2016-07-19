@@ -1,0 +1,20 @@
+<footer class="container-fluid">
+            
+               
+                    <p id="developer-name">
+                    Developed by GO-MAD solutions
+                </p>
+                <br>
+                <br>
+                <br>
+              <div class="socialiconscenter">  
+           <ul class="social-icons icon-circle icon-rotate list-unstyled list-inline"> 
+	      
+	      <li> <a href="#"><i class="fa fa-twitter"></i></a></li> 
+	      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+	     <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>  
+	         
+	  	</ul> 
+             <div>   
+            
+</footer>

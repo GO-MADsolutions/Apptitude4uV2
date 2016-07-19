@@ -1,6 +1,6 @@
+<%= render_breadcrumbs %>
 
-
-<h1> Train Problems </h1>
+<h1> Age Problems </h1>
 <%- page = params[:page].to_i %>
 <ol start = <%= page > 1 ? (((page-1) * 2) + 1) : 1 %>>
 
@@ -27,8 +27,8 @@
 </div> 
 </li>
 <% if user_signed_in? %>
-<%= link_to "edit", edit_train_path(p) %>
-<%= link_to "Delete", train_path(p), method: :delete, data: {confirm: "Are you sure"} %>
+<%= link_to "edit", edit_age_path(p) %>
+<%= link_to "Delete", age_path(p), method: :delete, data: {confirm: "Are you sure"} %>
 <% end %>
 <hr>
 

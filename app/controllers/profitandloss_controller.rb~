@@ -1,14 +1,18 @@
 class ProfitandlossController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "profitandloss", :profitandloss_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_profitandloss_url
  end
 
  def formula
+add_breadcrumb "formula", profitandloss_formula_url
  end
 
  def problems
-
+add_breadcrumb "problem", profitandloss_problems_url
    @posts =  Profitandloss.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_profitandloss_url
  @post =  Profitandloss.find(params[:id])
  end
  

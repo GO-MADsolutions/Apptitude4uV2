@@ -1,14 +1,18 @@
 class SquareandcuberootsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Square And Cube Root", :squareandcuberoots_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
- def new 
+ def new
+add_breadcrumb "create", new_squareandcuberoot_url 
  end
 
  def formula
+add_breadcrumb "Formula", squareandcuberoots_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", squareandcuberoots_probelms_url
    @posts = Squareandcuberoot.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_squareandcuberoot_url
  @post = Squareandcuberoot.find(params[:id])
  end
  

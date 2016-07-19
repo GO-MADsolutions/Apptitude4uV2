@@ -1,14 +1,18 @@
 class CompoundinterestsController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Compound Interest", :compoundinterests_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "New", new_compoundinterest_url
  end
 
  def formula
+add_breadcrumb "Formula", compoundinterests_formula_url
  end
 
  def problems
-
+add_breadcrumb "Problem", compoundinterests_formula_url
    @posts = Compoundinterest.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit Problem", edit_compoundinterest_url
  @post = Compoundinterest.find(params[:id])
  end
  

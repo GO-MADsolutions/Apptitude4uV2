@@ -5,7 +5,7 @@ source 'https://rubygems.org'
   gem 'rails', '4.2.6'
   gem 'spring'
   gem 'devise'
-  
+  gem 'font-awesome-sass'
   gem 'bootstrap-sass' 
   gem 'tzinfo-data'
   gem 'rails-api'

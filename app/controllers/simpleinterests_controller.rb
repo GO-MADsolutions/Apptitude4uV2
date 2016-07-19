@@ -1,14 +1,18 @@
 class SimpleinterestsController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Simple Interest", :simpleinterests_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "create", new_simpleinterest_url
  end
 
  def formula
+add_breadcrumb "Formula", simpleinterests_formula_url
  end
 
  def problems
-
+add_breadcrumb "problems", simpleinterests_problems_url
    @posts = Simpleinterest.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -43,6 +47,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_simpleinterest_url
  @post = Simpleinterest.find(params[:id])
  end
  

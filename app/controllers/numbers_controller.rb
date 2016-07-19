@@ -1,14 +1,18 @@
 class NumbersController < ApplicationController
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Numbers", :numbers_url
 before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
  def new 
+add_breadcrumb "Create", new_number_url
  end
 
  def formula
+add_breadcrumb "formula", numbers_formula_url
  end
 
  def problems
-
+add_breadcrumb "problem", numbers_problems_url
    @posts = Number.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -42,6 +46,7 @@ end
  end
 
  def edit
+add_breadcrumb "edit Problem", edit_number_url
  @post = Number.find(params[:id])
  end
  

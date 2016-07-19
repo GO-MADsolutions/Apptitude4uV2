@@ -1,14 +1,18 @@
 class StocksandsharesController < ApplicationController
-before_action :authenticate_user!, except: [:problems, :index, :formula, :test]
+add_breadcrumb "Home", :static_pages_home_url
+add_breadcrumb "Stocks And Shares", :stocksandshares_url
+before_action :authenticate_user!, except: [:problems, :index, :formula, :test, :getfortest]
 
- def new 
+ def new
+add_breadcrumb "create", new_stocksandshare_url 
  end
 
  def formula
+add_breadcrumb "Formula", stocksandshares_formula_url
  end
 
  def problems
-
+add_breadcrumb "problem", stockandshares_problems_url
    @posts = Stocksandshare.paginate(:page => params[:page], :per_page => 2)
  end
 
@@ -44,6 +48,7 @@ end
  end
 
  def edit
+add_breadcrumb "Edit problem", edit_stockandshare_url
  @post = Age.find(params[:id])
  end
  
